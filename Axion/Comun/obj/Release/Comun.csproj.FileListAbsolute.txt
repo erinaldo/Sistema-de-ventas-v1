@@ -1,0 +1,17 @@
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\Comun.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\Comun.pdb
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.AccDatos.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.Funciones.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.Log.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\itextsharp.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\log4net.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.WcfComun.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\MySql.Data.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\Npgsql.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.AccDatos.xml
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.Funciones.xml
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\ITD.Log.xml
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\bin\Release\log4net.xml
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\obj\Release\Comun.dll
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\obj\Release\Comun.pdb
+D:\APP\Desarrollo\Clientes\Personal\Facturacion Electronica\Libreria\Fuentes\Actual\Comun\obj\Release\Comun.csprojResolveAssemblyReference.cache

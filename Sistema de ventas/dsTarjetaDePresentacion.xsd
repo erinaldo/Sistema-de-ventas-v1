@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTarjetaDePresentacion" targetNamespace="http://tempuri.org/dsImagenes.xsd" xmlns:mstns="http://tempuri.org/dsImagenes.xsd" xmlns="http://tempuri.org/dsImagenes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTarjetaDePresentacion" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="dsTarjetaDePresentacion" msprop:Generator_DataSetName="dsTarjetaDePresentacion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tarjeta" msprop:Generator_UserTableName="Tarjeta" msprop:Generator_RowDeletedName="TarjetaRowDeleted" msprop:Generator_RowChangedName="TarjetaRowChanged" msprop:Generator_RowClassName="TarjetaRow" msprop:Generator_RowChangingName="TarjetaRowChanging" msprop:Generator_RowEvArgName="TarjetaRowChangeEvent" msprop:Generator_RowEvHandlerName="TarjetaRowChangeEventHandler" msprop:Generator_TableClassName="TarjetaDataTable" msprop:Generator_TableVarName="tableTarjeta" msprop:Generator_RowDeletingName="TarjetaRowDeleting" msprop:Generator_TablePropName="Tarjeta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imagen" msprop:Generator_UserColumnName="Imagen" msprop:Generator_ColumnVarNameInTable="columnImagen" msprop:Generator_ColumnPropNameInRow="Imagen" msprop:Generator_ColumnPropNameInTable="ImagenColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="nombre_trabajador" msprop:Generator_UserColumnName="nombre_trabajador" msprop:Generator_ColumnVarNameInTable="columnnombre_trabajador" msprop:Generator_ColumnPropNameInRow="nombre_trabajador" msprop:Generator_ColumnPropNameInTable="nombre_trabajadorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="area_trabajador" msprop:Generator_UserColumnName="area_trabajador" msprop:Generator_ColumnPropNameInRow="area_trabajador" msprop:Generator_ColumnVarNameInTable="columnarea_trabajador" msprop:Generator_ColumnPropNameInTable="area_trabajadorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono_trabajador" msprop:Generator_UserColumnName="telefono_trabajador" msprop:Generator_ColumnPropNameInRow="telefono_trabajador" msprop:Generator_ColumnVarNameInTable="columntelefono_trabajador" msprop:Generator_ColumnPropNameInTable="telefono_trabajadorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion_empresa" msprop:Generator_UserColumnName="direccion_empresa" msprop:Generator_ColumnPropNameInRow="direccion_empresa" msprop:Generator_ColumnVarNameInTable="columndireccion_empresa" msprop:Generator_ColumnPropNameInTable="direccion_empresaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ciudad_empresa" msprop:Generator_UserColumnName="ciudad_empresa" msprop:Generator_ColumnPropNameInRow="ciudad_empresa" msprop:Generator_ColumnVarNameInTable="columnciudad_empresa" msprop:Generator_ColumnPropNameInTable="ciudad_empresaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono_empresa" msprop:Generator_UserColumnName="telefono_empresa" msprop:Generator_ColumnPropNameInRow="telefono_empresa" msprop:Generator_ColumnVarNameInTable="columntelefono_empresa" msprop:Generator_ColumnPropNameInTable="telefono_empresaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono_empresa_2" msprop:Generator_UserColumnName="telefono_empresa_2" msprop:Generator_ColumnPropNameInRow="telefono_empresa_2" msprop:Generator_ColumnVarNameInTable="columntelefono_empresa_2" msprop:Generator_ColumnPropNameInTable="telefono_empresa_2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="correo_empresa" msprop:Generator_UserColumnName="correo_empresa" msprop:Generator_ColumnPropNameInRow="correo_empresa" msprop:Generator_ColumnVarNameInTable="columncorreo_empresa" msprop:Generator_ColumnPropNameInTable="correo_empresaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="pagina_empresa" msprop:Generator_UserColumnName="pagina_empresa" msprop:Generator_ColumnPropNameInRow="pagina_empresa" msprop:Generator_ColumnVarNameInTable="columnpagina_empresa" msprop:Generator_ColumnPropNameInTable="pagina_empresaColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

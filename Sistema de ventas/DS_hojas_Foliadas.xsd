@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_hojas_Foliadas" targetNamespace="http://tempuri.org/dsImagenes.xsd" xmlns:mstns="http://tempuri.org/dsImagenes.xsd" xmlns="http://tempuri.org/dsImagenes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_hojas_Foliadas" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="DS_hojas_Foliadas" msprop:Generator_DataSetName="DS_hojas_Foliadas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hojas_Foliadas" msprop:Generator_UserTableName="hojas_Foliadas" msprop:Generator_RowDeletedName="hojas_FoliadasRowDeleted" msprop:Generator_RowChangedName="hojas_FoliadasRowChanged" msprop:Generator_RowClassName="hojas_FoliadasRow" msprop:Generator_RowChangingName="hojas_FoliadasRowChanging" msprop:Generator_RowEvArgName="hojas_FoliadasRowChangeEvent" msprop:Generator_RowEvHandlerName="hojas_FoliadasRowChangeEventHandler" msprop:Generator_TableClassName="hojas_FoliadasDataTable" msprop:Generator_TableVarName="tablehojas_Foliadas" msprop:Generator_RowDeletingName="hojas_FoliadasRowDeleting" msprop:Generator_TablePropName="hojas_Foliadas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imagen" msprop:Generator_UserColumnName="Imagen" msprop:Generator_ColumnPropNameInRow="Imagen" msprop:Generator_ColumnVarNameInTable="columnImagen" msprop:Generator_ColumnPropNameInTable="ImagenColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="razon_social" msprop:Generator_UserColumnName="razon_social" msprop:Generator_ColumnPropNameInRow="razon_social" msprop:Generator_ColumnVarNameInTable="columnrazon_social" msprop:Generator_ColumnPropNameInTable="razon_socialColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="rut" msprop:Generator_UserColumnName="rut" msprop:Generator_ColumnVarNameInTable="columnrut" msprop:Generator_ColumnPropNameInRow="rut" msprop:Generator_ColumnPropNameInTable="rutColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sucursal" msprop:Generator_UserColumnName="sucursal" msprop:Generator_ColumnVarNameInTable="columnsucursal" msprop:Generator_ColumnPropNameInRow="sucursal" msprop:Generator_ColumnPropNameInTable="sucursalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TIPO" msprop:Generator_UserColumnName="TIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ciudad" msprop:Generator_UserColumnName="ciudad" msprop:Generator_ColumnPropNameInRow="ciudad" msprop:Generator_ColumnVarNameInTable="columnciudad" msprop:Generator_ColumnPropNameInTable="ciudadColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="giro" msprop:Generator_UserColumnName="giro" msprop:Generator_ColumnPropNameInRow="giro" msprop:Generator_ColumnVarNameInTable="columngiro" msprop:Generator_ColumnPropNameInTable="giroColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="representante_legal" msprop:Generator_UserColumnName="representante_legal" msprop:Generator_ColumnPropNameInRow="representante_legal" msprop:Generator_ColumnVarNameInTable="columnrepresentante_legal" msprop:Generator_ColumnPropNameInTable="representante_legalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="rut_representante_legal" msprop:Generator_UserColumnName="rut_representante_legal" msprop:Generator_ColumnPropNameInRow="rut_representante_legal" msprop:Generator_ColumnVarNameInTable="columnrut_representante_legal" msprop:Generator_ColumnPropNameInTable="rut_representante_legalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="folio_unico" msprop:Generator_UserColumnName="folio_unico" msprop:Generator_ColumnPropNameInRow="folio_unico" msprop:Generator_ColumnVarNameInTable="columnfolio_unico" msprop:Generator_ColumnPropNameInTable="folio_unicoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,481 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SISTEMA DE VENTAS
+</name>
+</assembly>
+<members>
+<member name="T:proyecto_sistema_ventas.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._12413179_0">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._13501829_5">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._16621207_3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._16972940_9">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._76313245_5">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._76366176_8">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._76820004_1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._81921000_4">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._8445963_1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_sistema_ventas.My.Resources.Resources._87686300_6">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsAbono">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsAbono.AbonoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsAbono.AbonoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsAbono.AbonoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dscaja">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dscaja.CajaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dscaja.CajaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dscaja.CajaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacion">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacion.CotizacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacion.CotizacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacion.CotizacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacionTicket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacionTicket.CotizacionTicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacionTicket.CotizacionTicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsCotizacionTicket.CotizacionTicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsPedidos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsPedidos.PedidosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsPedidos.PedidosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsPedidos.PedidosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleAbonos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleAbonos.DetalleAbonosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleAbonos.DetalleAbonosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleAbonos.DetalleAbonosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleVentas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleVentas.DetalleVentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleVentas.DetalleVentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsDetalleVentas.DetalleVentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsImagenes">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsImagenes.ImagenesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsImagenes.ImagenesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsImagenes.ImagenesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsletra">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsletra.LetraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsletra.LetraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsletra.LetraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsLibroDeCompras2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsLibroDeCompras2.LibroDeCompras2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsLibroDeCompras2.LibroDeCompras2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsLibroDeCompras2.LibroDeCompras2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsListadoAbonos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsListadoAbonos.ListadoAbonosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsListadoAbonos.ListadoAbonosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsListadoAbonos.ListadoAbonosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsListadoCreditos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsListadoCreditos.ListadoCreditosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsListadoCreditos.ListadoCreditosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DsListadoCreditos.ListadoCreditosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsReservas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsReservas.ReservasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsReservas.ReservasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsReservas.ReservasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsSaldoafavor">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsSaldoafavor.SaldoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsSaldoafavor.SaldoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsSaldoafavor.SaldoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsTarjetaDePresentacion">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsTarjetaDePresentacion.TarjetaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsTarjetaDePresentacion.TarjetaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.dsTarjetaDePresentacion.TarjetaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_cuadratura_fin_de_mes">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_cuadratura_fin_de_mes.cuadratura_fin_de_mesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_cuadratura_fin_de_mes.cuadratura_fin_de_mesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_cuadratura_fin_de_mes.cuadratura_fin_de_mesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_hojas_Foliadas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_hojas_Foliadas.hojas_FoliadasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_hojas_Foliadas.hojas_FoliadasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_hojas_Foliadas.hojas_FoliadasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_ofertas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_pesaje">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_pesaje.pesajeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_pesaje.pesajeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_pesaje.pesajeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_reporte">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_reporte.DS_reporteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_reporte.DS_reporteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_reporte.DS_reporteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_ticket_traspaso_sucursal">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_ticket_traspaso_sucursal.ticket_traspaso_sucursalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_ticket_traspaso_sucursal.ticket_traspaso_sucursalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_sistema_ventas.DS_ticket_traspaso_sucursal.ticket_traspaso_sucursalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

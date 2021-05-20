@@ -1,0 +1,4029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A5E30C4D-11BA-4628-A83F-1D59AA71008D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>proyecto_sistema_ventas.My.MyApplication</StartupObject>
+    <RootNamespace>proyecto_sistema_ventas</RootNamespace>
+    <AssemblyName>SISTEMA DE VENTAS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>logo letras negras.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>A986D0109B5B551F23153DE12E0B1B49B194A37F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetZone>LocalIntranet</TargetZone>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>ftp://ftp.clickoffice.cl/public_html/clickoffice.cl/sistema%2520de%2520ventas/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://clickoffice.cl/clickoffice.cl/sistema%2520de%2520ventas/</InstallUrl>
+    <ProductName>SISTEMA DE VENTAS</ProductName>
+    <PublisherName>CLICK OFFICE</PublisherName>
+    <MinimumRequiredVersion>1.0.0.796</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.htm</WebPage>
+    <ApplicationRevision>797</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SISTEMA DE VENTAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SISTEMA DE VENTAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\Archivos necesarios\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms.DataVisualization" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Crystal_cotizacion_personalizado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crystal_cotizacion_personalizado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_estado_de_cuenta_personalizado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crystal_estado_de_cuenta_personalizado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsAbono.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAbono.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dscaja.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dscaja.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dscaja.vb">
+      <DependentUpon>dscaja.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCotizacion.Designer.vb">
+      <DependentUpon>dsCotizacion.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="dsCotizacion.vb">
+      <DependentUpon>dsCotizacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCotizacionTicket.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCotizacionTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCotizacionTicket.vb">
+      <DependentUpon>dsCotizacionTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsDetalleAbonos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsDetalleAbonos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsDetalleVentas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsDetalleVentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsDetalleVentas.vb">
+      <DependentUpon>DsDetalleVentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsImagenes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsImagenes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsImagenes.vb">
+      <DependentUpon>dsImagenes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsletra.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsletra.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsletra.vb">
+      <DependentUpon>dsletra.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsLibroDeCompras2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsLibroDeCompras2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsListadoAbonos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListadoAbonos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsListadoAbonos.vb">
+      <DependentUpon>dsListadoAbonos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsListadoCreditos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsListadoCreditos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsListadoCreditos.vb">
+      <DependentUpon>DsListadoCreditos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPedidos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPedidos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPedidos.vb">
+      <DependentUpon>dsPedidos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReservas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReservas.vb">
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSaldoafavor.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSaldoafavor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSaldoafavor.vb">
+      <DependentUpon>dsSaldoafavor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTarjetaDePresentacion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTarjetaDePresentacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_cuadratura_fin_de_mes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_cuadratura_fin_de_mes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_cuadratura_fin_de_mes.vb">
+      <DependentUpon>DS_cuadratura_fin_de_mes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_hojas_Foliadas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_hojas_Foliadas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_hojas_Foliadas.vb">
+      <DependentUpon>DS_hojas_Foliadas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_ofertas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ofertas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_pesaje.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_pesaje.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_pesaje.vb">
+      <DependentUpon>DS_pesaje.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_reporte.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_reporte.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_reporte.vb">
+      <DependentUpon>DS_reporte.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_ticket_traspaso_sucursal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ticket_traspaso_sucursal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formestadistica_ventas_por_producto.Designer.vb">
+      <DependentUpon>Formestadistica_ventas_por_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formestadistica_ventas_por_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_actualizar_stock.Designer.vb">
+      <DependentUpon>Form_actualizar_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_actualizar_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_administrar_servicios_lubricentro.Designer.vb">
+      <DependentUpon>Form_administrar_servicios_lubricentro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_administrar_servicios_lubricentro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_administrar_vale_cambio.Designer.vb">
+      <DependentUpon>Form_administrar_vale_cambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_administrar_vale_cambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_agregar_permisos.Designer.vb">
+      <DependentUpon>Form_agregar_permisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_agregar_permisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_agregar_propiedades.Designer.vb">
+      <DependentUpon>Form_agregar_propiedades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_agregar_propiedades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_archivo_dicom.Designer.vb">
+      <DependentUpon>Form_archivo_dicom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_archivo_dicom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_asignar_familias.Designer.vb">
+      <DependentUpon>Form_asignar_familias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_asignar_familias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_asociar_clientes_a_empresas_eliminados.Designer.vb">
+      <DependentUpon>Form_asociar_clientes_a_empresas_eliminados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_asociar_clientes_a_empresas_eliminados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion_caja.Designer.vb">
+      <DependentUpon>Form_autorizacion_caja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion_caja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion_nc_90_dias.Designer.vb">
+      <DependentUpon>Form_autorizacion_nc_90_dias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion_nc_90_dias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos.Designer.vb">
+      <DependentUpon>Form_buscador_productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_retira_proveedores_garantias.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_retira_proveedores_garantias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_retira_proveedores_garantias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_recepcion.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_recepcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_recepcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_subfamilia_dos.Designer.vb">
+      <DependentUpon>Form_buscador_subfamilia_dos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_subfamilia_dos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_documentos_emitidos.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_documentos_emitidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_documentos_emitidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_para_asociar.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_para_asociar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_para_asociar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscar_documento_de_cambio_de_producto.Designer.vb">
+      <DependentUpon>Form_buscar_documento_de_cambio_de_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscar_documento_de_cambio_de_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_consumo_interno.Designer.vb">
+      <DependentUpon>Form_buscador_productos_consumo_interno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_consumo_interno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_etiquetas.Designer.vb">
+      <DependentUpon>Form_buscador_productos_etiquetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_etiquetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_abonos_detalle.Designer.vb">
+      <DependentUpon>Form_abonos_detalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_abonos_detalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_abonos_listado.Designer.vb">
+      <DependentUpon>Form_abonos_listado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_abonos_listado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion_anular.Designer.vb">
+      <DependentUpon>Form_autorizacion_anular.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion_anular.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion_cambio_producto.Designer.vb">
+      <DependentUpon>Form_autorizacion_cambio_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion_cambio_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion_impresion_libro.Designer.vb">
+      <DependentUpon>Form_autorizacion_impresion_libro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion_impresion_libro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion_traspaso.Designer.vb">
+      <DependentUpon>Form_autorizacion_traspaso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion_traspaso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_bitacora_de_cambios.Designer.vb">
+      <DependentUpon>Form_bitacora_de_cambios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_bitacora_de_cambios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_retira_guias_traslado.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_retira_guias_traslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_retira_guias_traslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_abonos_sin_imputar.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_abonos_sin_imputar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_abonos_sin_imputar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_guias_traslado.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_guias_traslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_guias_traslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_cambio_de_producto.Designer.vb">
+      <DependentUpon>Form_buscador_productos_cambio_de_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_cambio_de_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_guia_traslado.Designer.vb">
+      <DependentUpon>Form_buscador_productos_guia_traslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_guia_traslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscar_productos_pedidos_or.Designer.vb">
+      <DependentUpon>Form_buscar_productos_pedidos_or.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscar_productos_pedidos_or.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_traspaso_sucursal.Designer.vb">
+      <DependentUpon>Form_buscador_productos_traspaso_sucursal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_traspaso_sucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_reservas.Designer.vb">
+      <DependentUpon>Form_buscador_productos_reservas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_reservas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores_compras.Designer.vb">
+      <DependentUpon>Form_buscador_proveedores_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores_registro_facturas.Designer.vb">
+      <DependentUpon>Form_buscador_proveedores_registro_facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores_registro_facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores_stock_minimo.Designer.vb">
+      <DependentUpon>Form_buscador_proveedores_stock_minimo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores_stock_minimo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_proveedor_garantias.Designer.vb">
+      <DependentUpon>Form_buscador_proveedor_garantias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_proveedor_garantias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_recepciones.Designer.vb">
+      <DependentUpon>Form_buscador_recepciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_recepciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_servicios_lubricentro.Designer.vb">
+      <DependentUpon>Form_buscador_servicios_lubricentro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_servicios_lubricentro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_caja_dos.Designer.vb">
+      <DependentUpon>Form_caja_dos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_caja_dos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_calcular_deuda_cliente.Designer.vb">
+      <DependentUpon>Form_calcular_deuda_cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_calcular_deuda_cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambiar_cantidad_cambio_producto.Designer.vb">
+      <DependentUpon>Form_cambiar_cantidad_cambio_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambiar_cantidad_cambio_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambiar_de_usuario.Designer.vb">
+      <DependentUpon>Form_cambiar_de_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambiar_de_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambio_de_producto.Designer.vb">
+      <DependentUpon>Form_cambio_de_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambio_de_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambio_de_producto_condiciones.Designer.vb">
+      <DependentUpon>Form_cambio_de_producto_condiciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambio_de_producto_condiciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cantidades.Designer.vb">
+      <DependentUpon>Form_cantidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cantidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_abono.Designer.vb">
+      <DependentUpon>Form_cargar_abono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_abono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_agregar_abonos.Designer.vb">
+      <DependentUpon>Form_agregar_abonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_agregar_abonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_retira.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_retira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_retira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_inteligente.Designer.vb">
+      <DependentUpon>Form_buscador_inteligente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_inteligente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_registro_clientes.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_registro_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_registro_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_registro_cuentas_corrientes.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_registro_cuentas_corrientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_registro_cuentas_corrientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_cartola_kardex.Designer.vb">
+      <DependentUpon>Form_buscador_productos_cartola_kardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_cartola_kardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_abono_imputar.Designer.vb">
+      <DependentUpon>Form_cargar_abono_imputar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_abono_imputar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_compra_documento.Designer.vb">
+      <DependentUpon>Form_cargar_compra_documento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_compra_documento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_documento_cambio_producto.Designer.vb">
+      <DependentUpon>Form_cargar_documento_cambio_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_documento_cambio_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_fecha_cheque.Designer.vb">
+      <DependentUpon>Form_cargar_fecha_cheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_fecha_cheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_nota_de_credito.Designer.vb">
+      <DependentUpon>Form_cargar_nota_de_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_nota_de_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cartola_kardex_2.Designer.vb">
+      <DependentUpon>Form_cartola_kardex_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cartola_kardex_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_central_de_costos.Designer.vb">
+      <DependentUpon>Form_central_de_costos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_central_de_costos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cobranzas.Designer.vb">
+      <DependentUpon>Form_cobranzas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cobranzas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_comentario_ventas_lubricentro.Designer.vb">
+      <DependentUpon>Form_comentario_ventas_lubricentro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_comentario_ventas_lubricentro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_comisiones_por_vendedor.Designer.vb">
+      <DependentUpon>Form_comisiones_por_vendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_comisiones_por_vendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_comision_servicios.Designer.vb">
+      <DependentUpon>Form_comision_servicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_comision_servicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_configuracion_correo_administracion.Designer.vb">
+      <DependentUpon>Form_configuracion_correo_administracion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_configuracion_correo_administracion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_configuracion_correo_ventas.Designer.vb">
+      <DependentUpon>Form_configuracion_correo_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_configuracion_correo_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_consultas.Designer.vb">
+      <DependentUpon>Form_consultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_consultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_consumo_interno.Designer.vb">
+      <DependentUpon>Form_consumo_interno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_consumo_interno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_conteos_arana.Designer.vb">
+      <DependentUpon>Form_conteos_arana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_conteos_arana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_control_meses.Designer.vb">
+      <DependentUpon>Form_control_meses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_control_meses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_correguir.Designer.vb">
+      <DependentUpon>Form_correguir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_correguir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_correguir_codigo.Designer.vb">
+      <DependentUpon>Form_correguir_codigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_correguir_codigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_actualizaciones.Designer.vb">
+      <DependentUpon>Form_detalle_actualizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_actualizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_compras.Designer.vb">
+      <DependentUpon>Form_detalle_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_compras_por_documento.Designer.vb">
+      <DependentUpon>Form_detalle_compras_por_documento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_compras_por_documento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_creditos.Designer.vb">
+      <DependentUpon>Form_detalle_creditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_creditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_envios_a_garantias.Designer.vb">
+      <DependentUpon>Form_detalle_envios_a_garantias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_envios_a_garantias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_guias_de_garantia.Designer.vb">
+      <DependentUpon>Form_detalle_guias_de_garantia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_guias_de_garantia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_sin_documentos.Designer.vb">
+      <DependentUpon>Form_detalle_sin_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_sin_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_documentos_con_pagos_combinados.Designer.vb">
+      <DependentUpon>Form_documentos_con_pagos_combinados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_documentos_con_pagos_combinados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_documentos_duplicados.Designer.vb">
+      <DependentUpon>Form_documentos_duplicados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_documentos_duplicados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_documentos_sin_detalle.Designer.vb">
+      <DependentUpon>Form_documentos_sin_detalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_documentos_sin_detalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_documento_se_reemplaza_por.Designer.vb">
+      <DependentUpon>Form_documento_se_reemplaza_por.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_documento_se_reemplaza_por.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_empresas_relacionadas.Designer.vb">
+      <DependentUpon>Form_empresas_relacionadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_empresas_relacionadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_envio_a_garantias.Designer.vb">
+      <DependentUpon>Form_envio_a_garantias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_envio_a_garantias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_exportar_productos_pagina.Designer.vb">
+      <DependentUpon>Form_exportar_productos_pagina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_exportar_productos_pagina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_inventario_diario.Designer.vb">
+      <DependentUpon>Form_inventario_diario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_inventario_diario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listados.Designer.vb">
+      <DependentUpon>Form_listados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_de_cuadraturas.Designer.vb">
+      <DependentUpon>Form_listado_de_cuadraturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_de_cuadraturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_intereses_y_gastos.Designer.vb">
+      <DependentUpon>Form_listado_intereses_y_gastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_intereses_y_gastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_vales_de_cambio.Designer.vb">
+      <DependentUpon>Form_listado_vales_de_cambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_vales_de_cambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_mis_pedidos_en_espera.Designer.vb">
+      <DependentUpon>Form_mis_pedidos_en_espera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_mis_pedidos_en_espera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_modificar_creditos.Designer.vb">
+      <DependentUpon>Form_modificar_creditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_modificar_creditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_nuevo_conteo.Designer.vb">
+      <DependentUpon>Form_nuevo_conteo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_nuevo_conteo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_numero_de_atencion_cliente.Designer.vb">
+      <DependentUpon>Form_numero_de_atencion_cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_numero_de_atencion_cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_orden_de_compra.Designer.vb">
+      <DependentUpon>Form_orden_de_compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_orden_de_compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_otro_motivo_consumo_interno.Designer.vb">
+      <DependentUpon>Form_otro_motivo_consumo_interno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_otro_motivo_consumo_interno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pedidos_aceptados.Designer.vb">
+      <DependentUpon>Form_pedidos_aceptados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pedidos_aceptados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pedidos_or.Designer.vb">
+      <DependentUpon>Form_pedidos_or.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pedidos_or.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_productos_repetidos_kardex.Designer.vb">
+      <DependentUpon>Form_productos_repetidos_kardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_productos_repetidos_kardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_recepcion_de_trabajo.Designer.vb">
+      <DependentUpon>Form_recepcion_de_trabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_recepcion_de_trabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_asociar_clientes_a_empresas.Designer.vb">
+      <DependentUpon>Form_asociar_clientes_a_empresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_asociar_clientes_a_empresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_clientes_recepcion.Designer.vb">
+      <DependentUpon>Form_registro_clientes_recepcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_clientes_recepcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_facturas_deuda.Designer.vb">
+      <DependentUpon>Form_registro_de_facturas_deuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_facturas_deuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_imagenes_de_productos.Designer.vb">
+      <DependentUpon>Form_registro_de_imagenes_de_productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_imagenes_de_productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_imagenes_de_productos_publicidad.Designer.vb">
+      <DependentUpon>Form_registro_de_imagenes_de_productos_publicidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_imagenes_de_productos_publicidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_hardware.Designer.vb">
+      <DependentUpon>Form_registro_hardware.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_hardware.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_ruta_respaldos.Designer.vb">
+      <DependentUpon>Form_registro_ruta_respaldos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_ruta_respaldos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_subfamilia_2_arana.Designer.vb">
+      <DependentUpon>Form_registro_subfamilia_2_arana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_subfamilia_2_arana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_reposicion_arana.Designer.vb">
+      <DependentUpon>Form_reposicion_arana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_reposicion_arana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_resumen_de_compras_por_proveedor.Designer.vb">
+      <DependentUpon>Form_resumen_de_compras_por_proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_resumen_de_compras_por_proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_envios.Designer.vb">
+      <DependentUpon>Form_detalle_envios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_envios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_guias aceptadas.Designer.vb">
+      <DependentUpon>Form_detalle_guias aceptadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_guias aceptadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_nota_debito.Designer.vb">
+      <DependentUpon>Form_detalle_nota_debito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_nota_debito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_pagos.Designer.vb">
+      <DependentUpon>Form_detalle_pagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_pagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_ventas.Designer.vb">
+      <DependentUpon>Form_detalle_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_ventas_pago_combinado.Designer.vb">
+      <DependentUpon>Form_detalle_ventas_pago_combinado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_ventas_pago_combinado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_ventas_pie.Designer.vb">
+      <DependentUpon>Form_detalle_ventas_pie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_ventas_pie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_ventas_documentos.Designer.vb">
+      <DependentUpon>Form_detalle_ventas_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_ventas_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_deuda_cliente.Designer.vb">
+      <DependentUpon>Form_deuda_cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_deuda_cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_deuda_clientes_segun_fecha.Designer.vb">
+      <DependentUpon>Form_deuda_clientes_segun_fecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_deuda_clientes_segun_fecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_deuda_proveedor.Designer.vb">
+      <DependentUpon>Form_deuda_proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_deuda_proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_documentos_abono.Designer.vb">
+      <DependentUpon>Form_documentos_abono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_documentos_abono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_edicion_de_impresion.Designer.vb">
+      <DependentUpon>Form_edicion_de_impresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_edicion_de_impresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_eliminar.Designer.vb">
+      <DependentUpon>Form_eliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_enviar_documento.Designer.vb">
+      <DependentUpon>Form_enviar_documento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_enviar_documento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_envio_productos_sucursal.Designer.vb">
+      <DependentUpon>Form_envio_productos_sucursal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_envio_productos_sucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_estadisticas_ventas_del_dia.Designer.vb">
+      <DependentUpon>Form_estadisticas_ventas_del_dia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_estadisticas_ventas_del_dia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_estadisticas_ventas_de_la_semana.Designer.vb">
+      <DependentUpon>Form_estadisticas_ventas_de_la_semana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_estadisticas_ventas_de_la_semana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_estadisticas_ventas_segun_vendedor.Designer.vb">
+      <DependentUpon>Form_estadisticas_ventas_segun_vendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_estadisticas_ventas_segun_vendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_excel.Designer.vb">
+      <DependentUpon>Form_excel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_excel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_existencias.Designer.vb">
+      <DependentUpon>Form_existencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_existencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_exportar_detalle_compras.Designer.vb">
+      <DependentUpon>Form_exportar_detalle_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_exportar_detalle_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_facturacion_automatica.Designer.vb">
+      <DependentUpon>Form_facturacion_automatica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_facturacion_automatica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_guias_traslado.Designer.vb">
+      <DependentUpon>Form_guias_traslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_guias_traslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_guias_traslado_a_proveedores.Designer.vb">
+      <DependentUpon>Form_guias_traslado_a_proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_guias_traslado_a_proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_historial_de_cuenta.Designer.vb">
+      <DependentUpon>Form_historial_de_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_historial_de_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_historico_cuentas_corrientes.Designer.vb">
+      <DependentUpon>Form_historico_cuentas_corrientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_historico_cuentas_corrientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_hojas_foleadas.Designer.vb">
+      <DependentUpon>Form_hojas_foleadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_hojas_foleadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_imagenes_de_sistema.Designer.vb">
+      <DependentUpon>Form_imagenes_de_sistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_imagenes_de_sistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_imputar_abonos.Designer.vb">
+      <DependentUpon>Form_imputar_abonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_imputar_abonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_imputar_nota_de_credito.Designer.vb">
+      <DependentUpon>Form_imputar_nota_de_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_imputar_nota_de_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_caja.Designer.vb">
+      <DependentUpon>Form_informe_caja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_caja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_cotizacion_personalizado.Designer.vb">
+      <DependentUpon>Form_informe_cotizacion_personalizado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_cotizacion_personalizado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_cotizacion_ticket_personalizado.Designer.vb">
+      <DependentUpon>Form_informe_cotizacion_ticket_personalizado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_cotizacion_ticket_personalizado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_detalle_abonos.Designer.vb">
+      <DependentUpon>Form_informe_detalle_abonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_detalle_abonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_detalle_ventas.Designer.vb">
+      <DependentUpon>Form_informe_detalle_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_detalle_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_estado_de_cuenta_personalizado.Designer.vb">
+      <DependentUpon>Form_informe_estado_de_cuenta_personalizado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_estado_de_cuenta_personalizado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_hojas_Foliadas.Designer.vb">
+      <DependentUpon>Form_informe_hojas_Foliadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_hojas_Foliadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_compras2.Designer.vb">
+      <DependentUpon>Form_informe_libro_de_compras2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_compras2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_ventas.Designer.vb">
+      <DependentUpon>Form_informe_libro_de_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_listado_abono.Designer.vb">
+      <DependentUpon>Form_informe_listado_abono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_listado_abono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_listado_creditos.Designer.vb">
+      <DependentUpon>Form_informe_listado_creditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_listado_creditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_reservas.Designer.vb">
+      <DependentUpon>Form_informe_reservas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_reservas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_saldo_a_favor.Designer.vb">
+      <DependentUpon>Form_informe_saldo_a_favor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_saldo_a_favor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_tarjetas_de_presentacion.Designer.vb">
+      <DependentUpon>Form_informe_tarjetas_de_presentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_tarjetas_de_presentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ingresar_creditos.Designer.vb">
+      <DependentUpon>Form_ingresar_creditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ingresar_creditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_cuadratura_caja.Designer.vb">
+      <DependentUpon>Form_detalle_cuadratura_caja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_cuadratura_caja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_inventario.Designer.vb">
+      <DependentUpon>Form_inventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_inventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_de_clientes_con_pagare.Designer.vb">
+      <DependentUpon>Form_listado_de_clientes_con_pagare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_de_clientes_con_pagare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_documentos_nulos.Designer.vb">
+      <DependentUpon>Form_listado_documentos_nulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_documentos_nulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_letras.Designer.vb">
+      <DependentUpon>Form_listado_letras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_letras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_mis_documentos.Designer.vb">
+      <DependentUpon>Form_mis_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_mis_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_mis_reservas.Designer.vb">
+      <DependentUpon>Form_mis_reservas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_mis_reservas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_modificar_abonos.Designer.vb">
+      <DependentUpon>Form_modificar_abonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_modificar_abonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_motivo_eliminacion_de_documento.Designer.vb">
+      <DependentUpon>Form_motivo_eliminacion_de_documento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_motivo_eliminacion_de_documento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_nota_de_debito.Designer.vb">
+      <DependentUpon>Form_nota_de_debito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_nota_de_debito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_nuevo_servicio_lubricentro.Designer.vb">
+      <DependentUpon>Form_nuevo_servicio_lubricentro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_nuevo_servicio_lubricentro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago.Designer.vb">
+      <DependentUpon>Form_otro_medio_de_pago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_abonos.Designer.vb">
+      <DependentUpon>Form_otro_medio_de_pago_abonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_abonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_abonos_sin_imputar.Designer.vb">
+      <DependentUpon>Form_otro_medio_de_pago_abonos_sin_imputar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_abonos_sin_imputar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_cambio_de_producto.Designer.vb">
+      <DependentUpon>Form_otro_medio_de_pago_cambio_de_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_cambio_de_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_ticket.Designer.vb">
+      <DependentUpon>Form_otro_medio_de_pago_ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_otro_medio_de_pago_ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pago_combinado.Designer.vb">
+      <DependentUpon>Form_pago_combinado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pago_combinado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pedidos_proveedor.Designer.vb">
+      <DependentUpon>Form_pedidos_proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pedidos_proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_permisos_2.Designer.vb">
+      <DependentUpon>Form_permisos_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_permisos_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_posicion_producto.Designer.vb">
+      <DependentUpon>Form_posicion_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_posicion_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_productos_con mas_movimientos.Designer.vb">
+      <DependentUpon>Form_productos_con mas_movimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_productos_con mas_movimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_cliente_retira_guias_traslado.Designer.vb">
+      <DependentUpon>Form_registro_cliente_retira_guias_traslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_cliente_retira_guias_traslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_codigos_de_barra.Designer.vb">
+      <DependentUpon>Form_registro_codigos_de_barra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_codigos_de_barra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_color_sistema.Designer.vb">
+      <DependentUpon>Form_color_sistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_color_sistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_correguir_numero_impresion.Designer.vb">
+      <DependentUpon>Form_correguir_numero_impresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_correguir_numero_impresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_crear_campo_busqueda.Designer.vb">
+      <DependentUpon>Form_crear_campo_busqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_crear_campo_busqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_archivo_dbf.Designer.vb">
+      <DependentUpon>Form_archivo_dbf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_archivo_dbf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_anular_documentos.Designer.vb">
+      <DependentUpon>Form_anular_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_anular_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambio_de_contraseña_asistente.Designer.vb">
+      <DependentUpon>Form_cambio_de_contraseña_asistente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambio_de_contraseña_asistente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autorizacion.Designer.vb">
+      <DependentUpon>Form_autorizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autorizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_ventas.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_estado_de_cuenta.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_estado_de_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_estado_de_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_documentos.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscar_facturas.Designer.vb">
+      <DependentUpon>Form_buscar_facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscar_facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_ventas.Designer.vb">
+      <DependentUpon>Form_buscador_productos_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_registro_compras.Designer.vb">
+      <DependentUpon>Form_buscador_productos_registro_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_registro_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_registro.Designer.vb">
+      <DependentUpon>Form_buscador_productos_registro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_caja_diaria.Designer.vb">
+      <DependentUpon>Form_caja_diaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_caja_diaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambio_de_contraseña.Designer.vb">
+      <DependentUpon>Form_cambio_de_contraseña.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambio_de_contraseña.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambio_vendedor.Designer.vb">
+      <DependentUpon>Form_cambio_vendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambio_vendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_compra.Designer.vb">
+      <DependentUpon>Form_cargar_compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_detalle_facturas.Designer.vb">
+      <DependentUpon>Form_cargar_detalle_facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_detalle_facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cargar_libro_de_compra.Designer.vb">
+      <DependentUpon>Form_cargar_libro_de_compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cargar_libro_de_compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cartola_kardex.Designer.vb">
+      <DependentUpon>Form_cartola_kardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cartola_kardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_comentario_pedido.Designer.vb">
+      <DependentUpon>Form_comentario_pedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_comentario_pedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_comentario_pedido_confirmacion.Designer.vb">
+      <DependentUpon>Form_comentario_pedido_confirmacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_comentario_pedido_confirmacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_libro_de_ventas.Designer.vb">
+      <DependentUpon>Form_libro_de_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_libro_de_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_mensaje_clientes.Designer.vb">
+      <DependentUpon>Form_mensaje_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_mensaje_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_editar_mensaje_clientes.Designer.vb">
+      <DependentUpon>Form_editar_mensaje_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_editar_mensaje_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_modificar_doc_compras.Designer.vb">
+      <DependentUpon>Form_modificar_doc_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_modificar_doc_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pedido_confirmacion_de_llegada.Designer.vb">
+      <DependentUpon>Form_pedido_confirmacion_de_llegada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pedido_confirmacion_de_llegada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cotizacion formal.Designer.vb">
+      <DependentUpon>Form_cotizacion formal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cotizacion formal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_descuento.Designer.vb">
+      <DependentUpon>Form_descuento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_descuento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_desea_enviar_cotizacion.Designer.vb">
+      <DependentUpon>Form_desea_enviar_cotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_desea_enviar_cotizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_resumen_de_item_por_guia.Designer.vb">
+      <DependentUpon>Form_resumen_de_item_por_guia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_resumen_de_item_por_guia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_resumen_por_item.Designer.vb">
+      <DependentUpon>Form_resumen_por_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_resumen_por_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_resumen_de_ventas_por_item.Designer.vb">
+      <DependentUpon>Form_resumen_de_ventas_por_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_resumen_de_ventas_por_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_revisar_archivo_sii.Designer.vb">
+      <DependentUpon>Form_revisar_archivo_sii.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_revisar_archivo_sii.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_revisar_cajas.Designer.vb">
+      <DependentUpon>Form_revisar_cajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_revisar_cajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_revisar_documentos_a_kardex.Designer.vb">
+      <DependentUpon>Form_revisar_documentos_a_kardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_revisar_documentos_a_kardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_revision_de_stock.Designer.vb">
+      <DependentUpon>Form_revision_de_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_revision_de_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_para_asociar.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_para_asociar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_para_asociar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_documento_para_nota_credito.Designer.vb">
+      <DependentUpon>Form_seleccionar_documento_para_nota_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_documento_para_nota_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_detalle_pago_facturas.Designer.vb">
+      <DependentUpon>Form_detalle_pago_facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_detalle_pago_facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_enviar_correo_cotizacion.Designer.vb">
+      <DependentUpon>Form_enviar_correo_cotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_enviar_correo_cotizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_enviar_correo_cotizacion_ventas.Designer.vb">
+      <DependentUpon>Form_enviar_correo_cotizacion_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_enviar_correo_cotizacion_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_estado_de_cuenta_por_letras.Designer.vb">
+      <DependentUpon>Form_estado_de_cuenta_por_letras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_estado_de_cuenta_por_letras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_impreso_corectamente.Designer.vb">
+      <DependentUpon>Form_impreso_corectamente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_impreso_corectamente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_deposito_para_encargar_prepuesto.Designer.vb">
+      <DependentUpon>Form_informe_deposito_para_encargar_prepuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_deposito_para_encargar_prepuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_compras.Designer.vb">
+      <DependentUpon>Form_informe_libro_de_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_pedido_personalizado.Designer.vb">
+      <DependentUpon>Form_informe_pedido_personalizado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_pedido_personalizado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_info_factura_pagada.Designer.vb">
+      <DependentUpon>Form_info_factura_pagada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_info_factura_pagada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_libro_de_compras.Designer.vb">
+      <DependentUpon>Form_libro_de_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_libro_de_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_libro_de_compras_impresion.Designer.vb">
+      <DependentUpon>Form_libro_de_compras_impresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_libro_de_compras_impresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_compras_temporal.Designer.vb">
+      <DependentUpon>Form_informe_libro_de_compras_temporal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_libro_de_compras_temporal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_mis_pedidos.Designer.vb">
+      <DependentUpon>Form_mis_pedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_mis_pedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pedidos.Designer.vb">
+      <DependentUpon>Form_pedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_condicion_de_venta.Designer.vb">
+      <DependentUpon>Form_registro_condicion_de_venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_condicion_de_venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_actualizaciones.Designer.vb">
+      <DependentUpon>Form_registro_de_actualizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_actualizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_autorizaciones.Designer.vb">
+      <DependentUpon>Form_registro_de_autorizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_autorizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_cheques.Designer.vb">
+      <DependentUpon>Form_registro_de_cheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_cheques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_proveedores_mas_pedidos.Designer.vb">
+      <DependentUpon>Form_registro_proveedores_mas_pedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_proveedores_mas_pedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_razon_referencia_nota_credito.Designer.vb">
+      <DependentUpon>Form_razon_referencia_nota_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_razon_referencia_nota_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_clientes_abono.Designer.vb">
+      <DependentUpon>Form_registro_clientes_abono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_clientes_abono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_clientes_ventas.Designer.vb">
+      <DependentUpon>Form_registro_clientes_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_clientes_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_comisiones.Designer.vb">
+      <DependentUpon>Form_comisiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_comisiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_compra.Designer.vb">
+      <DependentUpon>Form_compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_crear_etiquetas.Designer.vb">
+      <DependentUpon>Form_crear_etiquetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_crear_etiquetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_dbf.Designer.vb">
+      <DependentUpon>Form_dbf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_dbf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_deudores.Designer.vb">
+      <DependentUpon>Form_deudores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_deudores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_documentos.Designer.vb">
+      <DependentUpon>Form_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_estado_de_cuenta.Designer.vb">
+      <DependentUpon>Form_estado_de_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_estado_de_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_facturacion.Designer.vb">
+      <DependentUpon>Form_facturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_facturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_de_facturas.Designer.vb">
+      <DependentUpon>Form_registro_de_facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_de_facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_imagen.Designer.vb">
+      <DependentUpon>Form_imagen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_imagen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_impresoras.Designer.vb">
+      <DependentUpon>Form_impresoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_impresoras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_abono.Designer.vb">
+      <DependentUpon>Form_informe_abono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_abono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_caja_diaria.Designer.vb">
+      <DependentUpon>Form_informe_caja_diaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_caja_diaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_comisiones.Designer.vb">
+      <DependentUpon>Form_informe_comisiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_comisiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_cotizacion.Designer.vb">
+      <DependentUpon>Form_informe_cotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_cotizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_deudores2.Designer.vb">
+      <DependentUpon>Form_informe_deudores2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_deudores2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_estadisticas.Designer.vb">
+      <DependentUpon>Form_informe_estadisticas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_estadisticas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_estado_de_cuenta.Designer.vb">
+      <DependentUpon>Form_informe_estado_de_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_estado_de_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_facturas_vencidas.Designer.vb">
+      <DependentUpon>Form_informe_facturas_vencidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_facturas_vencidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_lista.Designer.vb">
+      <DependentUpon>Form_informe_lista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_lista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_listado_deudores.Designer.vb">
+      <DependentUpon>Form_informe_listado_deudores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_listado_deudores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_abonos.Designer.vb">
+      <DependentUpon>Form_buscador_clientes_abonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_clientes_abonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_productos_compras.Designer.vb">
+      <DependentUpon>Form_buscador_productos_compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_productos_compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores.Designer.vb">
+      <DependentUpon>Form_buscador_proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_buscador_usuarios.Designer.vb">
+      <DependentUpon>Form_buscador_usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_buscador_usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_stock_minimo.Designer.vb">
+      <DependentUpon>Form_informe_stock_minimo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_stock_minimo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_informe_ticket.Designer.vb">
+      <DependentUpon>Form_informe_ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_informe_ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_de_facturacion.Designer.vb">
+      <DependentUpon>Form_listado_de_facturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_de_facturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_listado_documentos.Designer.vb">
+      <DependentUpon>Form_listado_documentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_listado_documentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_principal.Designer.vb">
+      <DependentUpon>Form_menu_principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ingreso.Designer.vb">
+      <DependentUpon>Form_ingreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ingreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_clientes.Designer.vb">
+      <DependentUpon>Form_registro_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_nota_credito.Designer.vb">
+      <DependentUpon>Form_nota_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_nota_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_numeros_impresion.Designer.vb">
+      <DependentUpon>Form_numeros_impresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_numeros_impresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_agregar_abonos_sin_imputar.Designer.vb">
+      <DependentUpon>Form_agregar_abonos_sin_imputar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_agregar_abonos_sin_imputar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_permisos.Designer.vb">
+      <DependentUpon>Form_permisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_permisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pruebas.Designer.vb">
+      <DependentUpon>Form_pruebas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pruebas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_cliente_retira_ventas.Designer.vb">
+      <DependentUpon>Form_registro_cliente_retira_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_cliente_retira_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_cuentas_corrientes.Designer.vb">
+      <DependentUpon>Form_registro_cuentas_corrientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_cuentas_corrientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_marcas.Designer.vb">
+      <DependentUpon>Form_registro_marcas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_marcas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_productos_compra.Designer.vb">
+      <DependentUpon>Form_registro_productos_compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_productos_compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_empresa.Designer.vb">
+      <DependentUpon>Form_registro_empresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_empresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_familia.Designer.vb">
+      <DependentUpon>Form_registro_familia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_familia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_proveedores.Designer.vb">
+      <DependentUpon>Form_registro_proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_productos.Designer.vb">
+      <DependentUpon>Form_registro_productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_proveedores_compra.Designer.vb">
+      <DependentUpon>Form_registro_proveedores_compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_proveedores_compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_ruta_documentos_electronicos.Designer.vb">
+      <DependentUpon>Form_registro_ruta_documentos_electronicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_ruta_documentos_electronicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_ruta_imagenes_sistema.Designer.vb">
+      <DependentUpon>Form_registro_ruta_imagenes_sistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_ruta_imagenes_sistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_subfamilia_2.Designer.vb">
+      <DependentUpon>Form_registro_subfamilia_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_subfamilia_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_usuarios.Designer.vb">
+      <DependentUpon>Form_registro_usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_valores.Designer.vb">
+      <DependentUpon>Form_registro_valores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_valores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_reporte_de_egresos.Designer.vb">
+      <DependentUpon>Form_reporte_de_egresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_reporte_de_egresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_reposicion_ventas.Designer.vb">
+      <DependentUpon>Form_reposicion_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_reposicion_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_reservas.Designer.vb">
+      <DependentUpon>Form_reservas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_reservas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_respaldo.Designer.vb">
+      <DependentUpon>Form_respaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_respaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_resumen_caja_diaria.Designer.vb">
+      <DependentUpon>Form_resumen_caja_diaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_resumen_caja_diaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_resumen_entradas_salidas.Designer.vb">
+      <DependentUpon>Form_resumen_entradas_salidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_resumen_entradas_salidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pedidos_revision.Designer.vb">
+      <DependentUpon>Form_pedidos_revision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pedidos_revision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_clientes.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_clientes_cuentas_corrientes.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_clientes_cuentas_corrientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_clientes_cuentas_corrientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_estado_de_cuenta.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_estado_de_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_estado_de_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_facturacion.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_facturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_facturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_guias_de_traslado.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_guias_de_traslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_guias_de_traslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_ingreso_creditos.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_ingreso_creditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_ingreso_creditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_ingreso_manual_de_ventas.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_ingreso_manual_de_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_ingreso_manual_de_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_documento_para_garantias.Designer.vb">
+      <DependentUpon>Form_seleccionar_documento_para_garantias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_documento_para_garantias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_documento_para_nota_credito_manuales.Designer.vb">
+      <DependentUpon>Form_seleccionar_documento_para_nota_credito_manuales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_documento_para_nota_credito_manuales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_doc_para_pago.Designer.vb">
+      <DependentUpon>Form_seleccionar_doc_para_pago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_doc_para_pago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_nota_debito.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_nota_debito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_nota_debito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_nota_credito.Designer.vb">
+      <DependentUpon>Form_seleccionar_cuenta_nota_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccionar_cuenta_nota_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_seleccion_imagen_por_codigo.Designer.vb">
+      <DependentUpon>Form_seleccion_imagen_por_codigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_seleccion_imagen_por_codigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_solicitar_revision.Designer.vb">
+      <DependentUpon>Form_solicitar_revision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_solicitar_revision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_stock.Designer.vb">
+      <DependentUpon>Form_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_registro_subfamilia.Designer.vb">
+      <DependentUpon>Form_registro_subfamilia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_registro_subfamilia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_stock_acumulado.Designer.vb">
+      <DependentUpon>Form_stock_acumulado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_stock_acumulado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_stock_fisico.Designer.vb">
+      <DependentUpon>Form_stock_fisico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_stock_fisico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_stock_sucursales.Designer.vb">
+      <DependentUpon>Form_stock_sucursales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_stock_sucursales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_stock_sucursales_cardex.Designer.vb">
+      <DependentUpon>Form_stock_sucursales_cardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_stock_sucursales_cardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_sueldos_por_caja.Designer.vb">
+      <DependentUpon>Form_sueldos_por_caja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_sueldos_por_caja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ticket_ventas.Designer.vb">
+      <DependentUpon>Form_ticket_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ticket_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ticket_ventas_2.Designer.vb">
+      <DependentUpon>Form_ticket_ventas_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ticket_ventas_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_tipo_despacho.Designer.vb">
+      <DependentUpon>Form_tipo_despacho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_tipo_despacho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_traspaso_historico_credito.Designer.vb">
+      <DependentUpon>Form_traspaso_historico_credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_traspaso_historico_credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_traspaso_stock.Designer.vb">
+      <DependentUpon>Form_traspaso_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_traspaso_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_vaciar.Designer.vb">
+      <DependentUpon>Form_vaciar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_vaciar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_venta.Designer.vb">
+      <DependentUpon>Form_venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ventas_asistidas.Designer.vb">
+      <DependentUpon>Form_ventas_asistidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ventas_asistidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_venta_esperada_por_familia.Designer.vb">
+      <DependentUpon>Form_venta_esperada_por_familia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_venta_esperada_por_familia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_venta_manual.Designer.vb">
+      <DependentUpon>Form_venta_manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_venta_manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ver_pagos.Designer.vb">
+      <DependentUpon>Form_ver_pagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ver_pagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cambio_de_contraseña_pregunta_secreta.Designer.vb">
+      <DependentUpon>Form_cambio_de_contraseña_pregunta_secreta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cambio_de_contraseña_pregunta_secreta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_visor_totales.Designer.vb">
+      <DependentUpon>Form_visor_totales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_visor_totales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_caja_registradora.Designer.vb">
+      <DependentUpon>Form_caja_registradora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_caja_registradora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_call_center.Designer.vb">
+      <DependentUpon>Form_call_center.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_call_center.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConeccion.vb" />
+    <Compile Include="ModuloVariables.vb" />
+    <Compile Include="Modulo_funcion.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Form_ventas_lubricentro.Designer.vb">
+      <DependentUpon>Form_ventas_lubricentro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ventas_lubricentro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Crystal_cotizacion_personalizado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crystal_cotizacion_personalizado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_estado_de_cuenta_personalizado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crystal_estado_de_cuenta_personalizado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formestadistica_ventas_por_producto.resx">
+      <DependentUpon>Formestadistica_ventas_por_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_abonos_detalle.resx">
+      <DependentUpon>Form_abonos_detalle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_abonos_listado.resx">
+      <DependentUpon>Form_abonos_listado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_actualizar_stock.resx">
+      <DependentUpon>Form_actualizar_stock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_administrar_servicios_lubricentro.resx">
+      <DependentUpon>Form_administrar_servicios_lubricentro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_administrar_vale_cambio.resx">
+      <DependentUpon>Form_administrar_vale_cambio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_agregar_abonos.resx">
+      <DependentUpon>Form_agregar_abonos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_agregar_permisos.resx">
+      <DependentUpon>Form_agregar_permisos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_agregar_propiedades.resx">
+      <DependentUpon>Form_agregar_propiedades.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_archivo_dicom.resx">
+      <DependentUpon>Form_archivo_dicom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_asignar_familias.resx">
+      <DependentUpon>Form_asignar_familias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_asociar_clientes_a_empresas_eliminados.resx">
+      <DependentUpon>Form_asociar_clientes_a_empresas_eliminados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion_anular.resx">
+      <DependentUpon>Form_autorizacion_anular.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion_caja.resx">
+      <DependentUpon>Form_autorizacion_caja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion_cambio_producto.resx">
+      <DependentUpon>Form_autorizacion_cambio_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion_impresion_libro.resx">
+      <DependentUpon>Form_autorizacion_impresion_libro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion_nc_90_dias.resx">
+      <DependentUpon>Form_autorizacion_nc_90_dias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion_traspaso.resx">
+      <DependentUpon>Form_autorizacion_traspaso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_bitacora_de_cambios.resx">
+      <DependentUpon>Form_bitacora_de_cambios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_retira_guias_traslado.resx">
+      <DependentUpon>Form_buscador_clientes_retira_guias_traslado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos.resx">
+      <DependentUpon>Form_buscador_productos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_retira_proveedores_garantias.resx">
+      <DependentUpon>Form_buscador_clientes_retira_proveedores_garantias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_recepcion.resx">
+      <DependentUpon>Form_buscador_clientes_recepcion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_subfamilia_dos.resx">
+      <DependentUpon>Form_buscador_subfamilia_dos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_abonos_sin_imputar.resx">
+      <DependentUpon>Form_buscador_clientes_abonos_sin_imputar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_documentos_emitidos.resx">
+      <DependentUpon>Form_buscador_clientes_documentos_emitidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_guias_traslado.resx">
+      <DependentUpon>Form_buscador_clientes_guias_traslado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_para_asociar.resx">
+      <DependentUpon>Form_buscador_clientes_para_asociar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscar_documento_de_cambio_de_producto.resx">
+      <DependentUpon>Form_buscar_documento_de_cambio_de_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_cambio_de_producto.resx">
+      <DependentUpon>Form_buscador_productos_cambio_de_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_retira.resx">
+      <DependentUpon>Form_buscador_clientes_retira.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_inteligente.resx">
+      <DependentUpon>Form_buscador_inteligente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_consumo_interno.resx">
+      <DependentUpon>Form_buscador_productos_consumo_interno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_etiquetas.resx">
+      <DependentUpon>Form_buscador_productos_etiquetas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_guia_traslado.resx">
+      <DependentUpon>Form_buscador_productos_guia_traslado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscar_productos_pedidos_or.resx">
+      <DependentUpon>Form_buscar_productos_pedidos_or.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_traspaso_sucursal.resx">
+      <DependentUpon>Form_buscador_productos_traspaso_sucursal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_registro_clientes.resx">
+      <DependentUpon>Form_buscador_clientes_registro_clientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_registro_cuentas_corrientes.resx">
+      <DependentUpon>Form_buscador_clientes_registro_cuentas_corrientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_cartola_kardex.resx">
+      <DependentUpon>Form_buscador_productos_cartola_kardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_reservas.resx">
+      <DependentUpon>Form_buscador_productos_reservas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_proveedores_compras.resx">
+      <DependentUpon>Form_buscador_proveedores_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_proveedores_registro_facturas.resx">
+      <DependentUpon>Form_buscador_proveedores_registro_facturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_proveedores_stock_minimo.resx">
+      <DependentUpon>Form_buscador_proveedores_stock_minimo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_proveedor_garantias.resx">
+      <DependentUpon>Form_buscador_proveedor_garantias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_recepciones.resx">
+      <DependentUpon>Form_buscador_recepciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_servicios_lubricentro.resx">
+      <DependentUpon>Form_buscador_servicios_lubricentro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_caja_dos.resx">
+      <DependentUpon>Form_caja_dos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_calcular_deuda_cliente.resx">
+      <DependentUpon>Form_calcular_deuda_cliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambiar_cantidad_cambio_producto.resx">
+      <DependentUpon>Form_cambiar_cantidad_cambio_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambiar_de_usuario.resx">
+      <DependentUpon>Form_cambiar_de_usuario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambio_de_producto.resx">
+      <DependentUpon>Form_cambio_de_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambio_de_producto_condiciones.resx">
+      <DependentUpon>Form_cambio_de_producto_condiciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cantidades.resx">
+      <DependentUpon>Form_cantidades.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_abono.resx">
+      <DependentUpon>Form_cargar_abono.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_abono_imputar.resx">
+      <DependentUpon>Form_cargar_abono_imputar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_compra_documento.resx">
+      <DependentUpon>Form_cargar_compra_documento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_documento_cambio_producto.resx">
+      <DependentUpon>Form_cargar_documento_cambio_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_fecha_cheque.resx">
+      <DependentUpon>Form_cargar_fecha_cheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_nota_de_credito.resx">
+      <DependentUpon>Form_cargar_nota_de_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cartola_kardex_2.resx">
+      <DependentUpon>Form_cartola_kardex_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_central_de_costos.resx">
+      <DependentUpon>Form_central_de_costos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cobranzas.resx">
+      <DependentUpon>Form_cobranzas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_comentario_ventas_lubricentro.resx">
+      <DependentUpon>Form_comentario_ventas_lubricentro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_comisiones_por_vendedor.resx">
+      <DependentUpon>Form_comisiones_por_vendedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_comision_servicios.resx">
+      <DependentUpon>Form_comision_servicios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_configuracion_correo_administracion.resx">
+      <DependentUpon>Form_configuracion_correo_administracion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_configuracion_correo_ventas.resx">
+      <DependentUpon>Form_configuracion_correo_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_consultas.resx">
+      <DependentUpon>Form_consultas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_consumo_interno.resx">
+      <DependentUpon>Form_consumo_interno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_conteos_arana.resx">
+      <DependentUpon>Form_conteos_arana.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_control_meses.resx">
+      <DependentUpon>Form_control_meses.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_correguir.resx">
+      <DependentUpon>Form_correguir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_correguir_codigo.resx">
+      <DependentUpon>Form_correguir_codigo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_actualizaciones.resx">
+      <DependentUpon>Form_detalle_actualizaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_compras.resx">
+      <DependentUpon>Form_detalle_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_compras_por_documento.resx">
+      <DependentUpon>Form_detalle_compras_por_documento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_creditos.resx">
+      <DependentUpon>Form_detalle_creditos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_envios_a_garantias.resx">
+      <DependentUpon>Form_detalle_envios_a_garantias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_guias_de_garantia.resx">
+      <DependentUpon>Form_detalle_guias_de_garantia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_sin_documentos.resx">
+      <DependentUpon>Form_detalle_sin_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_documentos_con_pagos_combinados.resx">
+      <DependentUpon>Form_documentos_con_pagos_combinados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_documentos_duplicados.resx">
+      <DependentUpon>Form_documentos_duplicados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_documentos_sin_detalle.resx">
+      <DependentUpon>Form_documentos_sin_detalle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_documento_se_reemplaza_por.resx">
+      <DependentUpon>Form_documento_se_reemplaza_por.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_empresas_relacionadas.resx">
+      <DependentUpon>Form_empresas_relacionadas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_envio_a_garantias.resx">
+      <DependentUpon>Form_envio_a_garantias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_exportar_productos_pagina.resx">
+      <DependentUpon>Form_exportar_productos_pagina.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_inventario_diario.resx">
+      <DependentUpon>Form_inventario_diario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listados.resx">
+      <DependentUpon>Form_listados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_de_cuadraturas.resx">
+      <DependentUpon>Form_listado_de_cuadraturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_intereses_y_gastos.resx">
+      <DependentUpon>Form_listado_intereses_y_gastos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_vales_de_cambio.resx">
+      <DependentUpon>Form_listado_vales_de_cambio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_mis_pedidos_en_espera.resx">
+      <DependentUpon>Form_mis_pedidos_en_espera.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_modificar_creditos.resx">
+      <DependentUpon>Form_modificar_creditos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_nuevo_conteo.resx">
+      <DependentUpon>Form_nuevo_conteo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_numero_de_atencion_cliente.resx">
+      <DependentUpon>Form_numero_de_atencion_cliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_orden_de_compra.resx">
+      <DependentUpon>Form_orden_de_compra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_otro_motivo_consumo_interno.resx">
+      <DependentUpon>Form_otro_motivo_consumo_interno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pedidos_aceptados.resx">
+      <DependentUpon>Form_pedidos_aceptados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pedidos_or.resx">
+      <DependentUpon>Form_pedidos_or.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_productos_repetidos_kardex.resx">
+      <DependentUpon>Form_productos_repetidos_kardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_recepcion_de_trabajo.resx">
+      <DependentUpon>Form_recepcion_de_trabajo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_asociar_clientes_a_empresas.resx">
+      <DependentUpon>Form_asociar_clientes_a_empresas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_clientes_recepcion.resx">
+      <DependentUpon>Form_registro_clientes_recepcion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_facturas_deuda.resx">
+      <DependentUpon>Form_registro_de_facturas_deuda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_imagenes_de_productos.resx">
+      <DependentUpon>Form_registro_de_imagenes_de_productos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_imagenes_de_productos_publicidad.resx">
+      <DependentUpon>Form_registro_de_imagenes_de_productos_publicidad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_hardware.resx">
+      <DependentUpon>Form_registro_hardware.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_ruta_respaldos.resx">
+      <DependentUpon>Form_registro_ruta_respaldos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_subfamilia_2_arana.resx">
+      <DependentUpon>Form_registro_subfamilia_2_arana.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_reposicion_arana.resx">
+      <DependentUpon>Form_reposicion_arana.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_resumen_de_compras_por_proveedor.resx">
+      <DependentUpon>Form_resumen_de_compras_por_proveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_envios.resx">
+      <DependentUpon>Form_detalle_envios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_guias aceptadas.resx">
+      <DependentUpon>Form_detalle_guias aceptadas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_nota_debito.resx">
+      <DependentUpon>Form_detalle_nota_debito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_pagos.resx">
+      <DependentUpon>Form_detalle_pagos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_ventas.resx">
+      <DependentUpon>Form_detalle_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_ventas_pago_combinado.resx">
+      <DependentUpon>Form_detalle_ventas_pago_combinado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_ventas_pie.resx">
+      <DependentUpon>Form_detalle_ventas_pie.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_ventas_documentos.resx">
+      <DependentUpon>Form_detalle_ventas_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_deuda_cliente.resx">
+      <DependentUpon>Form_deuda_cliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_deuda_clientes_segun_fecha.resx">
+      <DependentUpon>Form_deuda_clientes_segun_fecha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_deuda_proveedor.resx">
+      <DependentUpon>Form_deuda_proveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_documentos_abono.resx">
+      <DependentUpon>Form_documentos_abono.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_edicion_de_impresion.resx">
+      <DependentUpon>Form_edicion_de_impresion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_eliminar.resx">
+      <DependentUpon>Form_eliminar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_enviar_documento.resx">
+      <DependentUpon>Form_enviar_documento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_envio_productos_sucursal.resx">
+      <DependentUpon>Form_envio_productos_sucursal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_estadisticas_ventas_del_dia.resx">
+      <DependentUpon>Form_estadisticas_ventas_del_dia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_estadisticas_ventas_de_la_semana.resx">
+      <DependentUpon>Form_estadisticas_ventas_de_la_semana.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_estadisticas_ventas_segun_vendedor.resx">
+      <DependentUpon>Form_estadisticas_ventas_segun_vendedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_excel.resx">
+      <DependentUpon>Form_excel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_existencias.resx">
+      <DependentUpon>Form_existencias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_exportar_detalle_compras.resx">
+      <DependentUpon>Form_exportar_detalle_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_facturacion_automatica.resx">
+      <DependentUpon>Form_facturacion_automatica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_guias_traslado.resx">
+      <DependentUpon>Form_guias_traslado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_guias_traslado_a_proveedores.resx">
+      <DependentUpon>Form_guias_traslado_a_proveedores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_historial_de_cuenta.resx">
+      <DependentUpon>Form_historial_de_cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_historico_cuentas_corrientes.resx">
+      <DependentUpon>Form_historico_cuentas_corrientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_hojas_foleadas.resx">
+      <DependentUpon>Form_hojas_foleadas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_imagenes_de_sistema.resx">
+      <DependentUpon>Form_imagenes_de_sistema.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_imputar_abonos.resx">
+      <DependentUpon>Form_imputar_abonos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_imputar_nota_de_credito.resx">
+      <DependentUpon>Form_imputar_nota_de_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_cotizacion_personalizado.resx">
+      <DependentUpon>Form_informe_cotizacion_personalizado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_libro_de_ventas.resx">
+      <DependentUpon>Form_informe_libro_de_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_listado_abono.resx">
+      <DependentUpon>Form_informe_listado_abono.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_tarjetas_de_presentacion.resx">
+      <DependentUpon>Form_informe_tarjetas_de_presentacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ingresar_creditos.resx">
+      <DependentUpon>Form_ingresar_creditos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_cuadratura_caja.resx">
+      <DependentUpon>Form_detalle_cuadratura_caja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_inventario.resx">
+      <DependentUpon>Form_inventario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_de_clientes_con_pagare.resx">
+      <DependentUpon>Form_listado_de_clientes_con_pagare.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_documentos_nulos.resx">
+      <DependentUpon>Form_listado_documentos_nulos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_letras.resx">
+      <DependentUpon>Form_listado_letras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_mis_documentos.resx">
+      <DependentUpon>Form_mis_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_mis_reservas.resx">
+      <DependentUpon>Form_mis_reservas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_modificar_abonos.resx">
+      <DependentUpon>Form_modificar_abonos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_motivo_eliminacion_de_documento.resx">
+      <DependentUpon>Form_motivo_eliminacion_de_documento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_nota_de_debito.resx">
+      <DependentUpon>Form_nota_de_debito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_nuevo_servicio_lubricentro.resx">
+      <DependentUpon>Form_nuevo_servicio_lubricentro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_otro_medio_de_pago.resx">
+      <DependentUpon>Form_otro_medio_de_pago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_otro_medio_de_pago_abonos.resx">
+      <DependentUpon>Form_otro_medio_de_pago_abonos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_otro_medio_de_pago_abonos_sin_imputar.resx">
+      <DependentUpon>Form_otro_medio_de_pago_abonos_sin_imputar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_otro_medio_de_pago_cambio_de_producto.resx">
+      <DependentUpon>Form_otro_medio_de_pago_cambio_de_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_otro_medio_de_pago_ticket.resx">
+      <DependentUpon>Form_otro_medio_de_pago_ticket.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pago_combinado.resx">
+      <DependentUpon>Form_pago_combinado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pedidos_proveedor.resx">
+      <DependentUpon>Form_pedidos_proveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_permisos_2.resx">
+      <DependentUpon>Form_permisos_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_posicion_producto.resx">
+      <DependentUpon>Form_posicion_producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_productos_con mas_movimientos.resx">
+      <DependentUpon>Form_productos_con mas_movimientos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_cliente_retira_guias_traslado.resx">
+      <DependentUpon>Form_registro_cliente_retira_guias_traslado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_codigos_de_barra.resx">
+      <DependentUpon>Form_registro_codigos_de_barra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_color_sistema.resx">
+      <DependentUpon>Form_color_sistema.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_correguir_numero_impresion.resx">
+      <DependentUpon>Form_correguir_numero_impresion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_crear_campo_busqueda.resx">
+      <DependentUpon>Form_crear_campo_busqueda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_archivo_dbf.resx">
+      <DependentUpon>Form_archivo_dbf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_anular_documentos.resx">
+      <DependentUpon>Form_anular_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambio_de_contraseña_asistente.resx">
+      <DependentUpon>Form_cambio_de_contraseña_asistente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autorizacion.resx">
+      <DependentUpon>Form_autorizacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_abonos.resx">
+      <DependentUpon>Form_buscador_clientes_abonos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_ventas.resx">
+      <DependentUpon>Form_buscador_clientes_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_estado_de_cuenta.resx">
+      <DependentUpon>Form_buscador_clientes_estado_de_cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_clientes_documentos.resx">
+      <DependentUpon>Form_buscador_clientes_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscar_facturas.resx">
+      <DependentUpon>Form_buscar_facturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_compras.resx">
+      <DependentUpon>Form_buscador_productos_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_ventas.resx">
+      <DependentUpon>Form_buscador_productos_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_registro_compras.resx">
+      <DependentUpon>Form_buscador_productos_registro_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_productos_registro.resx">
+      <DependentUpon>Form_buscador_productos_registro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_proveedores.resx">
+      <DependentUpon>Form_buscador_proveedores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_buscador_usuarios.resx">
+      <DependentUpon>Form_buscador_usuarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_caja_diaria.resx">
+      <DependentUpon>Form_caja_diaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambio_de_contraseña.resx">
+      <DependentUpon>Form_cambio_de_contraseña.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambio_vendedor.resx">
+      <DependentUpon>Form_cambio_vendedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_compra.resx">
+      <DependentUpon>Form_cargar_compra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_detalle_facturas.resx">
+      <DependentUpon>Form_cargar_detalle_facturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cargar_libro_de_compra.resx">
+      <DependentUpon>Form_cargar_libro_de_compra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cartola_kardex.resx">
+      <DependentUpon>Form_cartola_kardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_comentario_pedido.resx">
+      <DependentUpon>Form_comentario_pedido.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_comentario_pedido_confirmacion.resx">
+      <DependentUpon>Form_comentario_pedido_confirmacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_libro_de_ventas.resx">
+      <DependentUpon>Form_libro_de_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_mensaje_clientes.resx">
+      <DependentUpon>Form_mensaje_clientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_editar_mensaje_clientes.resx">
+      <DependentUpon>Form_editar_mensaje_clientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_modificar_doc_compras.resx">
+      <DependentUpon>Form_modificar_doc_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pedido_confirmacion_de_llegada.resx">
+      <DependentUpon>Form_pedido_confirmacion_de_llegada.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cotizacion formal.resx">
+      <DependentUpon>Form_cotizacion formal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_descuento.resx">
+      <DependentUpon>Form_descuento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_desea_enviar_cotizacion.resx">
+      <DependentUpon>Form_desea_enviar_cotizacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_resumen_de_item_por_guia.resx">
+      <DependentUpon>Form_resumen_de_item_por_guia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_resumen_por_item.resx">
+      <DependentUpon>Form_resumen_por_item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_resumen_de_ventas_por_item.resx">
+      <DependentUpon>Form_resumen_de_ventas_por_item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_revisar_archivo_sii.resx">
+      <DependentUpon>Form_revisar_archivo_sii.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_revisar_cajas.resx">
+      <DependentUpon>Form_revisar_cajas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_revisar_documentos_a_kardex.resx">
+      <DependentUpon>Form_revisar_documentos_a_kardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_revision_de_stock.resx">
+      <DependentUpon>Form_revision_de_stock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_para_asociar.resx">
+      <DependentUpon>Form_seleccionar_cuenta_para_asociar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_documento_para_nota_credito.resx">
+      <DependentUpon>Form_seleccionar_documento_para_nota_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_detalle_pago_facturas.resx">
+      <DependentUpon>Form_detalle_pago_facturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_enviar_correo_cotizacion.resx">
+      <DependentUpon>Form_enviar_correo_cotizacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_enviar_correo_cotizacion_ventas.resx">
+      <DependentUpon>Form_enviar_correo_cotizacion_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_estado_de_cuenta_por_letras.resx">
+      <DependentUpon>Form_estado_de_cuenta_por_letras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_impreso_corectamente.resx">
+      <DependentUpon>Form_impreso_corectamente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_deposito_para_encargar_prepuesto.resx">
+      <DependentUpon>Form_informe_deposito_para_encargar_prepuesto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_libro_de_compras.resx">
+      <DependentUpon>Form_informe_libro_de_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_pedido_personalizado.resx">
+      <DependentUpon>Form_informe_pedido_personalizado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_info_factura_pagada.resx">
+      <DependentUpon>Form_info_factura_pagada.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_libro_de_compras.resx">
+      <DependentUpon>Form_libro_de_compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_libro_de_compras_impresion.resx">
+      <DependentUpon>Form_libro_de_compras_impresion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_libro_de_compras_temporal.resx">
+      <DependentUpon>Form_informe_libro_de_compras_temporal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_mis_pedidos.resx">
+      <DependentUpon>Form_mis_pedidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pedidos.resx">
+      <DependentUpon>Form_pedidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_condicion_de_venta.resx">
+      <DependentUpon>Form_registro_condicion_de_venta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_actualizaciones.resx">
+      <DependentUpon>Form_registro_de_actualizaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_autorizaciones.resx">
+      <DependentUpon>Form_registro_de_autorizaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_cheques.resx">
+      <DependentUpon>Form_registro_de_cheques.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_proveedores_mas_pedidos.resx">
+      <DependentUpon>Form_registro_proveedores_mas_pedidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_razon_referencia_nota_credito.resx">
+      <DependentUpon>Form_razon_referencia_nota_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_clientes_abono.resx">
+      <DependentUpon>Form_registro_clientes_abono.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_clientes_ventas.resx">
+      <DependentUpon>Form_registro_clientes_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_comisiones.resx">
+      <DependentUpon>Form_comisiones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_compra.resx">
+      <DependentUpon>Form_compra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_crear_etiquetas.resx">
+      <DependentUpon>Form_crear_etiquetas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_dbf.resx">
+      <DependentUpon>Form_dbf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_deudores.resx">
+      <DependentUpon>Form_deudores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_documentos.resx">
+      <DependentUpon>Form_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_estado_de_cuenta.resx">
+      <DependentUpon>Form_estado_de_cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_facturacion.resx">
+      <DependentUpon>Form_facturacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_de_facturas.resx">
+      <DependentUpon>Form_registro_de_facturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_imagen.resx">
+      <DependentUpon>Form_imagen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_impresoras.resx">
+      <DependentUpon>Form_impresoras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_abono.resx">
+      <DependentUpon>Form_informe_abono.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_caja_diaria.resx">
+      <DependentUpon>Form_informe_caja_diaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_comisiones.resx">
+      <DependentUpon>Form_informe_comisiones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_cotizacion.resx">
+      <DependentUpon>Form_informe_cotizacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_deudores2.resx">
+      <DependentUpon>Form_informe_deudores2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_estadisticas.resx">
+      <DependentUpon>Form_informe_estadisticas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_estado_de_cuenta.resx">
+      <DependentUpon>Form_informe_estado_de_cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_facturas_vencidas.resx">
+      <DependentUpon>Form_informe_facturas_vencidas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_lista.resx">
+      <DependentUpon>Form_informe_lista.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_listado_deudores.resx">
+      <DependentUpon>Form_informe_listado_deudores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_stock_minimo.resx">
+      <DependentUpon>Form_informe_stock_minimo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informe_ticket.resx">
+      <DependentUpon>Form_informe_ticket.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_de_facturacion.resx">
+      <DependentUpon>Form_listado_de_facturacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_listado_documentos.resx">
+      <DependentUpon>Form_listado_documentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_principal.resx">
+      <DependentUpon>Form_menu_principal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ingreso.resx">
+      <DependentUpon>Form_ingreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_clientes.resx">
+      <DependentUpon>Form_registro_clientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_nota_credito.resx">
+      <DependentUpon>Form_nota_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_numeros_impresion.resx">
+      <DependentUpon>Form_numeros_impresion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_agregar_abonos_sin_imputar.resx">
+      <DependentUpon>Form_agregar_abonos_sin_imputar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_permisos.resx">
+      <DependentUpon>Form_permisos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pruebas.resx">
+      <DependentUpon>Form_pruebas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_cliente_retira_ventas.resx">
+      <DependentUpon>Form_registro_cliente_retira_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_cuentas_corrientes.resx">
+      <DependentUpon>Form_registro_cuentas_corrientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_marcas.resx">
+      <DependentUpon>Form_registro_marcas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_productos_compra.resx">
+      <DependentUpon>Form_registro_productos_compra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_empresa.resx">
+      <DependentUpon>Form_registro_empresa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_familia.resx">
+      <DependentUpon>Form_registro_familia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_proveedores.resx">
+      <DependentUpon>Form_registro_proveedores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_productos.resx">
+      <DependentUpon>Form_registro_productos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_proveedores_compra.resx">
+      <DependentUpon>Form_registro_proveedores_compra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_ruta_documentos_electronicos.resx">
+      <DependentUpon>Form_registro_ruta_documentos_electronicos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_ruta_imagenes_sistema.resx">
+      <DependentUpon>Form_registro_ruta_imagenes_sistema.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_subfamilia_2.resx">
+      <DependentUpon>Form_registro_subfamilia_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_usuarios.resx">
+      <DependentUpon>Form_registro_usuarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_valores.resx">
+      <DependentUpon>Form_registro_valores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_reporte_de_egresos.resx">
+      <DependentUpon>Form_reporte_de_egresos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_reposicion_ventas.resx">
+      <DependentUpon>Form_reposicion_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_reservas.resx">
+      <DependentUpon>Form_reservas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_respaldo.resx">
+      <DependentUpon>Form_respaldo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_resumen_caja_diaria.resx">
+      <DependentUpon>Form_resumen_caja_diaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_resumen_entradas_salidas.resx">
+      <DependentUpon>Form_resumen_entradas_salidas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pedidos_revision.resx">
+      <DependentUpon>Form_pedidos_revision.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta.resx">
+      <DependentUpon>Form_seleccionar_cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_clientes.resx">
+      <DependentUpon>Form_seleccionar_cuenta_clientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_clientes_cuentas_corrientes.resx">
+      <DependentUpon>Form_seleccionar_cuenta_clientes_cuentas_corrientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_estado_de_cuenta.resx">
+      <DependentUpon>Form_seleccionar_cuenta_estado_de_cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_facturacion.resx">
+      <DependentUpon>Form_seleccionar_cuenta_facturacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_guias_de_traslado.resx">
+      <DependentUpon>Form_seleccionar_cuenta_guias_de_traslado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_ingreso_creditos.resx">
+      <DependentUpon>Form_seleccionar_cuenta_ingreso_creditos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_ingreso_manual_de_ventas.resx">
+      <DependentUpon>Form_seleccionar_cuenta_ingreso_manual_de_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_documento_para_garantias.resx">
+      <DependentUpon>Form_seleccionar_documento_para_garantias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_documento_para_nota_credito_manuales.resx">
+      <DependentUpon>Form_seleccionar_documento_para_nota_credito_manuales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_doc_para_pago.resx">
+      <DependentUpon>Form_seleccionar_doc_para_pago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_nota_debito.resx">
+      <DependentUpon>Form_seleccionar_cuenta_nota_debito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccionar_cuenta_nota_credito.resx">
+      <DependentUpon>Form_seleccionar_cuenta_nota_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_seleccion_imagen_por_codigo.resx">
+      <DependentUpon>Form_seleccion_imagen_por_codigo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_solicitar_revision.resx">
+      <DependentUpon>Form_solicitar_revision.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_stock.resx">
+      <DependentUpon>Form_stock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_registro_subfamilia.resx">
+      <DependentUpon>Form_registro_subfamilia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_stock_acumulado.resx">
+      <DependentUpon>Form_stock_acumulado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_stock_fisico.resx">
+      <DependentUpon>Form_stock_fisico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_stock_sucursales.resx">
+      <DependentUpon>Form_stock_sucursales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_stock_sucursales_cardex.resx">
+      <DependentUpon>Form_stock_sucursales_cardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_sueldos_por_caja.resx">
+      <DependentUpon>Form_sueldos_por_caja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ticket_ventas.resx">
+      <DependentUpon>Form_ticket_ventas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ticket_ventas_2.resx">
+      <DependentUpon>Form_ticket_ventas_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_tipo_despacho.resx">
+      <DependentUpon>Form_tipo_despacho.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_traspaso_historico_credito.resx">
+      <DependentUpon>Form_traspaso_historico_credito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_traspaso_stock.resx">
+      <DependentUpon>Form_traspaso_stock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_vaciar.resx">
+      <DependentUpon>Form_vaciar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_venta.resx">
+      <DependentUpon>Form_venta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ventas_asistidas.resx">
+      <DependentUpon>Form_ventas_asistidas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_venta_esperada_por_familia.resx">
+      <DependentUpon>Form_venta_esperada_por_familia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_venta_manual.resx">
+      <DependentUpon>Form_venta_manual.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ver_pagos.resx">
+      <DependentUpon>Form_ver_pagos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cambio_de_contraseña_pregunta_secreta.resx">
+      <DependentUpon>Form_cambio_de_contraseña_pregunta_secreta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_visor_totales.resx">
+      <DependentUpon>Form_visor_totales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_caja_registradora.resx">
+      <DependentUpon>Form_caja_registradora.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_call_center.resx">
+      <DependentUpon>Form_call_center.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ventas_lubricentro.resx">
+      <DependentUpon>Form_ventas_lubricentro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dsAbono.xsc">
+      <DependentUpon>dsAbono.xsd</DependentUpon>
+    </None>
+    <None Include="dsAbono.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAbono.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAbono.xss">
+      <DependentUpon>dsAbono.xsd</DependentUpon>
+    </None>
+    <None Include="dscaja.xsc">
+      <DependentUpon>dscaja.xsd</DependentUpon>
+    </None>
+    <None Include="dscaja.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dscaja.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dscaja.xss">
+      <DependentUpon>dscaja.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacion.xsc">
+      <DependentUpon>dsCotizacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCotizacion.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCotizacion.xss">
+      <DependentUpon>dsCotizacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionTicket.xsc">
+      <DependentUpon>dsCotizacionTicket.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionTicket.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCotizacionTicket.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsCotizacionTicket.xss">
+      <DependentUpon>dsCotizacionTicket.xsd</DependentUpon>
+    </None>
+    <None Include="DsDetalleAbonos.xsc">
+      <DependentUpon>DsDetalleAbonos.xsd</DependentUpon>
+    </None>
+    <None Include="DsDetalleAbonos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsDetalleAbonos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DsDetalleAbonos.xss">
+      <DependentUpon>DsDetalleAbonos.xsd</DependentUpon>
+    </None>
+    <None Include="DsDetalleVentas.xsc">
+      <DependentUpon>DsDetalleVentas.xsd</DependentUpon>
+    </None>
+    <None Include="DsDetalleVentas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsDetalleVentas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DsDetalleVentas.xss">
+      <DependentUpon>DsDetalleVentas.xsd</DependentUpon>
+    </None>
+    <None Include="dsImagenes.xsc">
+      <DependentUpon>dsImagenes.xsd</DependentUpon>
+    </None>
+    <None Include="dsImagenes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsImagenes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsImagenes.xss">
+      <DependentUpon>dsImagenes.xsd</DependentUpon>
+    </None>
+    <None Include="dsletra.xsc">
+      <DependentUpon>dsletra.xsd</DependentUpon>
+    </None>
+    <None Include="dsletra.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsletra.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsletra.xss">
+      <DependentUpon>dsletra.xsd</DependentUpon>
+    </None>
+    <None Include="DsLibroDeCompras2.xsc">
+      <DependentUpon>DsLibroDeCompras2.xsd</DependentUpon>
+    </None>
+    <None Include="DsLibroDeCompras2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsLibroDeCompras2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DsLibroDeCompras2.xss">
+      <DependentUpon>DsLibroDeCompras2.xsd</DependentUpon>
+    </None>
+    <None Include="dsListadoAbonos.xsc">
+      <DependentUpon>dsListadoAbonos.xsd</DependentUpon>
+    </None>
+    <None Include="dsListadoAbonos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListadoAbonos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsListadoAbonos.xss">
+      <DependentUpon>dsListadoAbonos.xsd</DependentUpon>
+    </None>
+    <None Include="DsListadoCreditos.xsc">
+      <DependentUpon>DsListadoCreditos.xsd</DependentUpon>
+    </None>
+    <None Include="DsListadoCreditos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsListadoCreditos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DsListadoCreditos.xss">
+      <DependentUpon>DsListadoCreditos.xsd</DependentUpon>
+    </None>
+    <None Include="dsPedidos.xsc">
+      <DependentUpon>dsPedidos.xsd</DependentUpon>
+    </None>
+    <None Include="dsPedidos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPedidos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPedidos.xss">
+      <DependentUpon>dsPedidos.xsd</DependentUpon>
+    </None>
+    <None Include="dsReservas.xsc">
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </None>
+    <None Include="dsReservas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReservas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsReservas.xss">
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </None>
+    <None Include="dsSaldoafavor.xsc">
+      <DependentUpon>dsSaldoafavor.xsd</DependentUpon>
+    </None>
+    <None Include="dsSaldoafavor.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaldoafavor.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSaldoafavor.xss">
+      <DependentUpon>dsSaldoafavor.xsd</DependentUpon>
+    </None>
+    <None Include="dsTarjetaDePresentacion.xsc">
+      <DependentUpon>dsTarjetaDePresentacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsTarjetaDePresentacion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTarjetaDePresentacion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsTarjetaDePresentacion.xss">
+      <DependentUpon>dsTarjetaDePresentacion.xsd</DependentUpon>
+    </None>
+    <None Include="DS_hojas_Foliadas.xsc">
+      <DependentUpon>DS_hojas_Foliadas.xsd</DependentUpon>
+    </None>
+    <None Include="DS_hojas_Foliadas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_hojas_Foliadas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_hojas_Foliadas.xss">
+      <DependentUpon>DS_hojas_Foliadas.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ofertas.xsc">
+      <DependentUpon>DS_ofertas.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ofertas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ofertas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_ofertas.xss">
+      <DependentUpon>DS_ofertas.xsd</DependentUpon>
+    </None>
+    <None Include="DS_pesaje.xsc">
+      <DependentUpon>DS_pesaje.xsd</DependentUpon>
+    </None>
+    <None Include="DS_pesaje.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_pesaje.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_pesaje.xss">
+      <DependentUpon>DS_pesaje.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo letras negras.ico" />
+    <None Include="Resources\76366176-8.png" />
+    <None Include="Resources\76820004-1.png" />
+    <None Include="Resources\81921000-4.png" />
+    <None Include="Resources\8445963-1.png" />
+    <None Include="Resources\13501829-5.png" />
+    <None Include="Resources\12413179-0.png" />
+    <None Include="Resources\76313245-5.png" />
+    <None Include="Resources\16972940-9.png" />
+    <None Include="Resources\87686300-6.png" />
+    <None Include="Resources\11111111-1.png" />
+    <None Include="coneccion a mysql_TemporaryKey.pfx" />
+    <None Include="DS_cuadratura_fin_de_mes.xsc">
+      <DependentUpon>DS_cuadratura_fin_de_mes.xsd</DependentUpon>
+    </None>
+    <None Include="DS_cuadratura_fin_de_mes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_cuadratura_fin_de_mes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_cuadratura_fin_de_mes.xss">
+      <DependentUpon>DS_cuadratura_fin_de_mes.xsd</DependentUpon>
+    </None>
+    <None Include="DS_reporte.xsc">
+      <DependentUpon>DS_reporte.xsd</DependentUpon>
+    </None>
+    <None Include="DS_reporte.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_reporte.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_reporte.xss">
+      <DependentUpon>DS_reporte.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ticket_traspaso_sucursal.xsc">
+      <DependentUpon>DS_ticket_traspaso_sucursal.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ticket_traspaso_sucursal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ticket_traspaso_sucursal.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_ticket_traspaso_sucursal.xss">
+      <DependentUpon>DS_ticket_traspaso_sucursal.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ADODB">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data.CF">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Windows.Forms.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

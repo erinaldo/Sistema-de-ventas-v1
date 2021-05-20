@@ -1,0 +1,739 @@
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe.config
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe.manifest
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.application
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.pdb
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.xml
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\itextsharp.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\MySql.Data.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\System.Web.Services.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\System.Windows.Forms.DataVisualization.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\ADODB.dll
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_lateral_derecha.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_lateral_izquierda.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_pie.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_titulo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadistica_ventas_por_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_abonos_detalle.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_abonos_listado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_abonos_listado_propiedades.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_actualizar_stock.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_administrar_servicios_lubricentro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_administrar_vale_cambio.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_abonos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_abonos_manuales.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_permisos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_propiedades.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_archivo_dicom.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_asignar_familias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_asociar_clientes_a_empresas_eliminados.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_anular.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_caja.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_cambio_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_impresion_libro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_nc_90_dias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_nc_producto_cambiado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_traspaso.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_bitacora_de_cambios.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_retira_guias_traslado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_retira_proveedores_garantias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_recepcion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_subfamilia_dos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_abonos_sin_imputar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_documentos_emitidos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_guias_traslado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_para_asociar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_documento_de_cambio_de_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_cambio_de_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_retira.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_inteligente.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_consumo_interno.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_etiquetas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_guia_traslado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_traspaso_sucursal.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_registro_clientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_registro_cuentas_corrientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_cartola_kardex.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_reservas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores_registro_facturas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores_stock_minimo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedor_garantias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_recepciones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_servicios_lubricentro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_proveedores_contactos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_proveedores_marcas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_dos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_registradora_2.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_calcular_deuda_cliente.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambiar_cantidad_cambio_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambiar_de_usuario.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_producto_condiciones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cantidades.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_abono.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_abono_imputar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_compra_documento.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_neumaticos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_contar_dinero.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_control_caf.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_datos_solicitud_cotizacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_despacho_web.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_diferencia_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_editar_ofertas_productos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_documento_2.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_guardar_como_pdf.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_impresion_ticket_estado_de_cuenta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_marcas_vehiculos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nueva_orden_de_trabajo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_orden_de_trabajo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_pagina_neumapro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_proveedores_contactos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_proveedores_marcas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_productos_con_familia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revision_cotizaciones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_cambio_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_fecha_cheque.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_nota_de_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cartola_kardex_2.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_central_de_costos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cobranzas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comentario_ventas_lubricentro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comisiones_por_vendedor.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comision_servicios.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_configuracion_correo_administracion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_configuracion_correo_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_consultas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_consumo_interno.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_conteos_arana.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_control_meses.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_CORREGIR.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_CORREGIR_codigo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_actualizaciones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_compras_por_documento.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_creditos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_envios_a_garantias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_guias_de_garantia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_sin_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_con_pagos_combinados.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_duplicados.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_sin_detalle.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documento_se_reemplaza_por.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_empresas_relacionadas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_envio_a_garantias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_exportar_productos_pagina.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_forma_de_pago_por_defecto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_inventario_diario.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listados.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_de_cuadraturas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_intereses_y_gastos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_vales_de_cambio.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_pedidos_en_espera.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_modificar_creditos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nuevo_conteo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_numero_de_atencion_cliente.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_orden_de_compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_motivo_consumo_interno.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos_aceptados.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_modificados_arana.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_repetidos_kardex.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_recepcion_de_trabajo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_asociar_clientes_a_empresas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_clientes_recepcion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_facturas_deuda.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_imagenes_de_productos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_imagenes_de_productos_publicidad.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_hardware.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_ruta_respaldos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_subfamilia_2_arana.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reposicion_arana.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_de_compras_por_proveedor.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_envios.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_guias_aceptadas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_nota_debito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_pagos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_pago_combinado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_pie.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deuda_cliente.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deuda_clientes_segun_fecha.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deuda_proveedor.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_abono.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_edicion_de_impresion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_eliminar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_documento.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_envio_productos_sucursal.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadisticas_ventas_del_dia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadisticas_ventas_de_la_semana.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadisticas_ventas_segun_vendedor.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_excel.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_existencias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_exportar_detalle_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_facturacion_automatica.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_guias_traslado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_guias_traslado_a_proveedores.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_historico_cuentas_corrientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_hojas_foleadas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imagenes_de_sistema.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imputar_abonos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imputar_nota_de_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ingresar_creditos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_cuadratura_caja.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_inventario.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_de_clientes_con_pagare.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_documentos_nulos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_letras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_reservas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_modificar_abonos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_motivo_eliminacion_de_documento.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nota_de_debito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nuevo_servicio_lubricentro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_abonos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_abonos_sin_imputar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_cambio_de_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_ticket.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pago_combinado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos_proveedor.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_permisos_2.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_posicion_producto.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_con_mas_movimientos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_cliente_retira_guias_traslado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_codigos_de_barra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_color_sistema.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_CORREGIR_numero_impresion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_crear_campo_busqueda.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_archivo_dbf.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_anular_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_contraseña_asistente.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_abonos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_estado_de_cuenta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_facturas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_registro_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_registro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_usuarios.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_diaria.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_contraseña.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_vendedor.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_detalle_registro_de_facturas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_libro_de_compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cartola_kardex.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comentario_pedido.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comentario_pedido_confirmacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_libro_de_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mensaje_clientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_editar_mensaje_clientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_modificar_doc_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedido_confirmacion_de_llegada.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cotizacion_formal.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_descuento.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_desea_enviar_cotizacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_de_item_por_guia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_por_item.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_de_ventas_por_item.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revisar_archivo_sii.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revisar_cajas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revisar_documentos_a_kardex.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revision_de_stock.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_para_asociar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_nota_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_pago_facturas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_correo_cotizacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_correo_cotizacion_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estado_de_cuenta_por_letras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_impreso_corectamente.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_info_factura_pagada.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_libro_de_compras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_libro_de_compras_impresion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_pedidos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_condicion_de_venta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_actualizaciones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_autorizaciones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_cheques.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_proveedores_mas_pedidos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_razon_referencia_nota_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_clientes_abono.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_clientes_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comisiones.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_Compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_crear_etiquetas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_dbf.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deudores.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estado_de_cuenta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_facturacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_facturas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imagen.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_impresoras.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_de_facturacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_documentos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_menu_principal.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_Ingreso.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_clientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nota_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_numeros_impresion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_abonos_sin_imputar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_permisos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pruebas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_cliente_retira_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_cuentas_corrientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_marcas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_productos_compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_empresa.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_familia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_proveedores.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_productos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_proveedores_compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_ruta_documentos_electronicos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_ruta_imagenes_sistema.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_subfamilia_2.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_usuarios.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_valores.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reporte_de_egresos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reposicion_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reservas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_respaldo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_caja_diaria.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_entradas_salidas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos_revision.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_clientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_clientes_cuentas_corrientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_estado_de_cuenta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_facturacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_guias_de_traslado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_ingreso_creditos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_ingreso_manual_de_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_garantias.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_nota_credito_manuales.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_doc_para_pago.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_nota_debito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_nota_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccion_imagen_por_codigo.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_quiebre.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_solicitar_cotizacion.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_subfamilia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_acumulado.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_fisico.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_sucursales.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_sucursales_cardex.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_sucursales.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_sueldos_por_caja.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ticket_ventas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ticket_ventas_2.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_tipo_despacho.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_traspaso_historico_credito.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_traspaso_stock.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_vaciar.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ventas_asistidas.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_esperada_por_familia.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_manual.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_multiple.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_orden_de_compra.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ver_pagos.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_contraseña_pregunta_secreta.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_visor_totales.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_registradora.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_call_center.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_xml.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Resources.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ventas_lubricentro.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.PruebaRSA.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.UC_clientes.resources
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbproj.GenerateResource.cache
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe.licenses
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.TrustInfo.xml
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe.manifest
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.application
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbproj.CopyComplete
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.xml
+C:\Users\claud\OneDrive\Escritorio\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.pdb
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe.config
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe.manifest
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.application
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.pdb
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\SistemaDeVentas.xml
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\itextsharp.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\MySql.Data.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\ADODB.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\bin\Debug\es\Microsoft.Build.Utilities.v3.5.resources.dll
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_lateral_derecha.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_lateral_izquierda.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_pie.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Barra_titulo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadistica_ventas_por_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_abonos_detalle.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_abonos_listado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_abonos_listado_propiedades.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_actualizar_stock.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_administrar_servicios_lubricentro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_administrar_vale_cambio.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_abonos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_abonos_manuales.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_permisos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_propiedades.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_archivo_dicom.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_asignar_familias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_asociar_clientes_a_empresas_eliminados.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_anular.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_caja.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_cambio_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_impresion_libro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_nc_90_dias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_nc_producto_cambiado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion_traspaso.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_bitacora_de_cambios.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_retira_guias_traslado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_retira_proveedores_garantias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_recepcion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_subfamilia_dos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_abonos_sin_imputar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_documentos_emitidos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_guias_traslado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_para_asociar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_documento_de_cambio_de_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_cambio_de_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_retira.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_inteligente.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_consumo_interno.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_etiquetas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_guia_traslado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_traspaso_sucursal.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_registro_clientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_registro_cuentas_corrientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_cartola_kardex.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_reservas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores_registro_facturas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores_stock_minimo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedor_garantias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_recepciones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_servicios_lubricentro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_proveedores_contactos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_proveedores_marcas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_dos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_registradora_2.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_calcular_deuda_cliente.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambiar_cantidad_cambio_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambiar_de_usuario.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_producto_condiciones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cantidades.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_abono.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_abono_imputar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_compra_documento.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_neumaticos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_contar_dinero.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_control_caf.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_datos_solicitud_cotizacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_despacho_web.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_diferencia_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_editar_ofertas_productos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_documento_2.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_guardar_como_pdf.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_impresion_ticket_estado_de_cuenta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_marcas_vehiculos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nueva_orden_de_trabajo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_orden_de_trabajo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_pagina_neumapro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_proveedores_contactos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_proveedores_marcas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_productos_con_familia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revision_cotizaciones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_cambio_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_fecha_cheque.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_nota_de_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cartola_kardex_2.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_central_de_costos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cobranzas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comentario_ventas_lubricentro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comisiones_por_vendedor.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comision_servicios.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_configuracion_correo_administracion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_configuracion_correo_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_consultas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_consumo_interno.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_conteos_arana.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_control_meses.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_CORREGIR.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_CORREGIR_codigo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_actualizaciones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_compras_por_documento.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_creditos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_envios_a_garantias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_guias_de_garantia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_sin_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_con_pagos_combinados.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_duplicados.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_sin_detalle.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documento_se_reemplaza_por.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_empresas_relacionadas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_envio_a_garantias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_exportar_productos_pagina.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_forma_de_pago_por_defecto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_inventario_diario.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listados.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_de_cuadraturas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_intereses_y_gastos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_vales_de_cambio.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_pedidos_en_espera.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_modificar_creditos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nuevo_conteo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_numero_de_atencion_cliente.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_orden_de_compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_motivo_consumo_interno.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos_aceptados.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_modificados_arana.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_repetidos_kardex.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_recepcion_de_trabajo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_asociar_clientes_a_empresas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_clientes_recepcion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_facturas_deuda.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_imagenes_de_productos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_imagenes_de_productos_publicidad.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_hardware.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_ruta_respaldos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_subfamilia_2_arana.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reposicion_arana.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_de_compras_por_proveedor.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_envios.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_guias_aceptadas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_nota_debito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_pagos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_pago_combinado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_pie.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deuda_cliente.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deuda_clientes_segun_fecha.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deuda_proveedor.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos_abono.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_edicion_de_impresion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_eliminar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_documento.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_envio_productos_sucursal.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadisticas_ventas_del_dia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadisticas_ventas_de_la_semana.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estadisticas_ventas_segun_vendedor.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_excel.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_existencias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_exportar_detalle_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_facturacion_automatica.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_guias_traslado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_guias_traslado_a_proveedores.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_historico_cuentas_corrientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_hojas_foleadas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imagenes_de_sistema.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imputar_abonos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imputar_nota_de_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ingresar_creditos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_cuadratura_caja.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_inventario.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_de_clientes_con_pagare.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_documentos_nulos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_letras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_reservas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_modificar_abonos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_motivo_eliminacion_de_documento.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nota_de_debito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nuevo_servicio_lubricentro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_abonos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_abonos_sin_imputar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_cambio_de_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_otro_medio_de_pago_ticket.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pago_combinado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos_proveedor.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_permisos_2.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_posicion_producto.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_productos_con_mas_movimientos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_cliente_retira_guias_traslado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_codigos_de_barra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_color_sistema.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_CORREGIR_numero_impresion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_crear_campo_busqueda.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_archivo_dbf.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_anular_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_contraseña_asistente.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_autorizacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_abonos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_estado_de_cuenta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_clientes_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscar_facturas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_registro_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_productos_registro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_proveedores.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_buscador_usuarios.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_diaria.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_contraseña.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_vendedor.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_detalle_registro_de_facturas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cargar_libro_de_compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cartola_kardex.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comentario_pedido.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comentario_pedido_confirmacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_libro_de_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mensaje_clientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_editar_mensaje_clientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_modificar_doc_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedido_confirmacion_de_llegada.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cotizacion_formal.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_descuento.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_desea_enviar_cotizacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_de_item_por_guia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_por_item.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_de_ventas_por_item.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revisar_archivo_sii.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revisar_cajas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revisar_documentos_a_kardex.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_revision_de_stock.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_para_asociar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_nota_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_pago_facturas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_correo_cotizacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_enviar_correo_cotizacion_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estado_de_cuenta_por_letras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_impreso_corectamente.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_info_factura_pagada.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_libro_de_compras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_libro_de_compras_impresion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_mis_pedidos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_condicion_de_venta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_actualizaciones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_autorizaciones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_cheques.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_proveedores_mas_pedidos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_razon_referencia_nota_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_clientes_abono.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_clientes_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_comisiones.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_Compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_crear_etiquetas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_dbf.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_deudores.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_estado_de_cuenta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_facturacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_de_facturas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_imagen.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_impresoras.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_de_facturacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_listado_documentos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_menu_principal.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_Ingreso.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_clientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_nota_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_numeros_impresion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_agregar_abonos_sin_imputar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_permisos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pruebas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_cliente_retira_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_cuentas_corrientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_marcas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_productos_compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_empresa.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_familia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_proveedores.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_productos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_proveedores_compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_ruta_documentos_electronicos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_ruta_imagenes_sistema.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_subfamilia_2.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.form_registro_usuarios.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_valores.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reporte_de_egresos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reposicion_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_reservas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_respaldo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_caja_diaria.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_resumen_entradas_salidas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_pedidos_revision.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_clientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_clientes_cuentas_corrientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_estado_de_cuenta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_facturacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_guias_de_traslado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_ingreso_creditos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_ingreso_manual_de_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_garantias.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_documento_para_nota_credito_manuales.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_doc_para_pago.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_nota_debito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccionar_cuenta_nota_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_seleccion_imagen_por_codigo.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_quiebre.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_solicitar_cotizacion.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_registro_subfamilia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_acumulado.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_fisico.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_sucursales.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_stock_sucursales_cardex.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_sucursales.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_sueldos_por_caja.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ticket_ventas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ticket_ventas_2.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_tipo_despacho.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_traspaso_historico_credito.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_traspaso_stock.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_vaciar.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ventas_asistidas.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_esperada_por_familia.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_manual.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_multiple.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_venta_orden_de_compra.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ver_pagos.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_cambio_de_contraseña_pregunta_secreta.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_visor_totales.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_caja_registradora.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_call_center.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_xml.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Resources.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_ventas_lubricentro.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.PruebaRSA.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.UC_clientes.resources
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbproj.GenerateResource.cache
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe.licenses
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbproj.CoreCompileInputs.cache
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.TrustInfo.xml
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe.manifest
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.application
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbproj.CopyComplete
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.xml
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.pdb
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\SistemaDeVentas.vbprojAssemblyReference.cache
+E:\Mis sistemas\Sistema Ventas .Net 22 04 2019\SistemaDeVentas\obj\Debug\proyecto_sistema_ventas.Form_detalle_ventas_credito.resources

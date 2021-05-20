@@ -1,0 +1,3 @@
+﻿Public Class Form_informe_libro_de_compras_temporal
+
+End Class

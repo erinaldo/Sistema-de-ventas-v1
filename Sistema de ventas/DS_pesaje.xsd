@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_pesaje" targetNamespace="http://tempuri.org/DS_pesaje.xsd" xmlns:mstns="http://tempuri.org/DS_pesaje.xsd" xmlns="http://tempuri.org/DS_pesaje.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_pesaje" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_pesaje" msprop:Generator_UserDSName="DS_pesaje" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pesaje" msprop:Generator_UserTableName="pesaje" msprop:Generator_RowDeletedName="pesajeRowDeleted" msprop:Generator_TableClassName="pesajeDataTable" msprop:Generator_RowChangedName="pesajeRowChanged" msprop:Generator_RowClassName="pesajeRow" msprop:Generator_RowChangingName="pesajeRowChanging" msprop:Generator_RowEvArgName="pesajeRowChangeEvent" msprop:Generator_RowEvHandlerName="pesajeRowChangeEventHandler" msprop:Generator_TablePropName="pesaje" msprop:Generator_TableVarName="tablepesaje" msprop:Generator_RowDeletingName="pesajeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="certificacion" msprop:Generator_UserColumnName="certificacion" msprop:Generator_ColumnPropNameInRow="certificacion" msprop:Generator_ColumnVarNameInTable="columncertificacion" msprop:Generator_ColumnPropNameInTable="certificacionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="emision" msprop:Generator_UserColumnName="emision" msprop:Generator_ColumnPropNameInRow="emision" msprop:Generator_ColumnVarNameInTable="columnemision" msprop:Generator_ColumnPropNameInTable="emisionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="empresa" msprop:Generator_UserColumnName="empresa" msprop:Generator_ColumnPropNameInRow="empresa" msprop:Generator_ColumnVarNameInTable="columnempresa" msprop:Generator_ColumnPropNameInTable="empresaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nro_ticket" msprop:Generator_UserColumnName="nro_ticket" msprop:Generator_ColumnPropNameInRow="nro_ticket" msprop:Generator_ColumnVarNameInTable="columnnro_ticket" msprop:Generator_ColumnPropNameInTable="nro_ticketColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn5" msprop:Generator_UserColumnName="DataColumn5" msprop:Generator_ColumnPropNameInRow="DataColumn5" msprop:Generator_ColumnVarNameInTable="columnDataColumn5" msprop:Generator_ColumnPropNameInTable="DataColumn5Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn6" msprop:Generator_UserColumnName="DataColumn6" msprop:Generator_ColumnPropNameInRow="DataColumn6" msprop:Generator_ColumnVarNameInTable="columnDataColumn6" msprop:Generator_ColumnPropNameInTable="DataColumn6Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn7" msprop:Generator_UserColumnName="DataColumn7" msprop:Generator_ColumnPropNameInRow="DataColumn7" msprop:Generator_ColumnVarNameInTable="columnDataColumn7" msprop:Generator_ColumnPropNameInTable="DataColumn7Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn8" msprop:Generator_UserColumnName="DataColumn8" msprop:Generator_ColumnPropNameInRow="DataColumn8" msprop:Generator_ColumnVarNameInTable="columnDataColumn8" msprop:Generator_ColumnPropNameInTable="DataColumn8Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn9" msprop:Generator_UserColumnName="DataColumn9" msprop:Generator_ColumnPropNameInRow="DataColumn9" msprop:Generator_ColumnVarNameInTable="columnDataColumn9" msprop:Generator_ColumnPropNameInTable="DataColumn9Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn10" msprop:Generator_UserColumnName="DataColumn10" msprop:Generator_ColumnPropNameInRow="DataColumn10" msprop:Generator_ColumnVarNameInTable="columnDataColumn10" msprop:Generator_ColumnPropNameInTable="DataColumn10Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn11" msprop:Generator_UserColumnName="DataColumn11" msprop:Generator_ColumnPropNameInRow="DataColumn11" msprop:Generator_ColumnVarNameInTable="columnDataColumn11" msprop:Generator_ColumnPropNameInTable="DataColumn11Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn12" msprop:Generator_UserColumnName="DataColumn12" msprop:Generator_ColumnPropNameInRow="DataColumn12" msprop:Generator_ColumnVarNameInTable="columnDataColumn12" msprop:Generator_ColumnPropNameInTable="DataColumn12Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn13" msprop:Generator_UserColumnName="DataColumn13" msprop:Generator_ColumnPropNameInRow="DataColumn13" msprop:Generator_ColumnVarNameInTable="columnDataColumn13" msprop:Generator_ColumnPropNameInTable="DataColumn13Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn14" msprop:Generator_UserColumnName="DataColumn14" msprop:Generator_ColumnPropNameInRow="DataColumn14" msprop:Generator_ColumnVarNameInTable="columnDataColumn14" msprop:Generator_ColumnPropNameInTable="DataColumn14Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn15" msprop:Generator_UserColumnName="DataColumn15" msprop:Generator_ColumnPropNameInRow="DataColumn15" msprop:Generator_ColumnVarNameInTable="columnDataColumn15" msprop:Generator_ColumnPropNameInTable="DataColumn15Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

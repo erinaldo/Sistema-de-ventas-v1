@@ -1,0 +1,3 @@
+﻿Public Class Form_informe_deposito_para_encargar_prepuesto
+
+End Class
